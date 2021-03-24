@@ -30,9 +30,9 @@ class Dashboard extends Controller{
 
         if($valid->fails()){
             $errors = $valid->errors()->all();
-            return $errors ==  1 ?
-                response(['erorr', $errors[0]]) :
-                response(['errors', $errors]);
+            return count($errors) ==  1 ?
+                response(['error' => $errors[0]]) :
+                response(['error' => $errors]);
         }
 
         $pic = false;
