@@ -1901,6 +1901,115 @@ module.exports = {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 
@@ -6641,7 +6750,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.login,\n.image {\n    min-height: 100vh;\n}\n.bg-image {\n    background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');\n    background-size: cover;\n    background-position: center;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.login,\n.image {\n    min-height: 100vh;\n}\n.bg-image {\n    background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');\n    background-size: cover;\n    background-position: center;\n}\n.icons span:not(:last-child){\n    margin-right: 1.25rem;\n}\n.icons svg {\n    height: 16px;\n    width: 16px;\n    fill: #343a40;\n    transition: all 150ms;\n}\n.icons svg:hover {\n    fill: #3490dc;\n}\n.text {\n    font-size: 12px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37902,79 +38011,232 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "container-fluid" }, [
+    _c("div", { staticClass: "row no-gutter" }, [
+      _c("div", { staticClass: "d-none d-md-flex col-md-4 col-lg-6 bg-image" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-8 col-lg-6" }, [
+        _c("div", { staticClass: "login d-flex align-items-center py-5" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-md-9 col-lg-8 mx-auto" }, [
+                _vm._m(0),
+                _vm._v(" "),
+                _vm._m(1),
+                _vm._v(" "),
+                _c("div", { staticClass: "pt-2 icons text-center text" }, [
+                  _c("div", [
+                    _vm._v(
+                      "\n                                    Or use Social Media Account\n                                "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "pt-2" }, [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            xmlns: "http://www.w3.org/2000/svg",
+                            viewBox: "0 0 512 512"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M320,85.333h64c5.891,0,10.667-4.776,10.667-10.667v-64C394.667,4.776,389.891,0,384,0h-64\n                                                c-64.772,0.071-117.263,52.561-117.333,117.333V192H128c-5.891,0-10.667,4.776-10.667,10.667v64c0,5.891,4.776,10.667,10.667,10.667\n                                                h74.667v224c0,5.891,4.776,10.667,10.667,10.667h64c5.891,0,10.667-4.776,10.667-10.667v-224h74.667\n                                                c4.589-0.003,8.662-2.942,10.112-7.296l21.333-64c1.862-5.589-1.16-11.629-6.749-13.491c-1.084-0.361-2.22-0.546-3.363-0.547h-96\n                                                v-74.667C288,99.66,302.327,85.333,320,85.333z"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g")
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            xmlns: "http://www.w3.org/2000/svg",
+                            viewBox: "0 0 510 510"
+                          }
+                        },
+                        [
+                          _c("g", [
+                            _c("g", { attrs: { id: "glass" } }, [
+                              _c("path", {
+                                attrs: {
+                                  d:
+                                    "M286.875,229.5v63.75h150.45c-15.3,89.25-86.7,153-175.95,153c-104.55,0-191.25-86.7-191.25-191.25\n                                                        s86.7-191.25,191.25-191.25c53.55,0,99.45,22.95,132.6,58.65l45.9-45.9c-45.9-45.9-107.1-76.5-178.5-76.5\n                                                        c-140.25,0-255,114.75-255,255s114.75,255,255,255s242.25-114.75,242.25-255v-25.5H286.875z"
+                                }
+                              })
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g")
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            xmlns: "http://www.w3.org/2000/svg",
+                            viewBox: "0 0 24 24"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("path", {
+                            attrs: { d: "m.396 7.977h4.976v16.023h-4.976z" }
+                          }),
+                          _vm._v(" "),
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _vm._m(2)
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row no-gutter" }, [
-        _c("div", {
-          staticClass: "d-none d-md-flex col-md-4 col-lg-6 bg-image"
-        }),
+    return _c("div", [
+      _c("h3", { staticClass: "m-0" }, [_vm._v("Welcome back!")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c("form", [
+        _c("div", { staticClass: "form-group" }, [
+          _c("input", {
+            staticClass: "form-control",
+            attrs: {
+              type: "email",
+              id: "inputEmail",
+              placeholder: "Email address or username",
+              autofocus: ""
+            }
+          })
+        ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-8 col-lg-6" }, [
-          _c("div", { staticClass: "login d-flex align-items-center py-5" }, [
-            _c("div", { staticClass: "container" }, [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "col-md-9 col-lg-8 mx-auto" }, [
-                  _c("div", { staticClass: "mb-5" }, [
-                    _c("h3", { staticClass: "m-0" }, [_vm._v("Welcome back!")])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "mb-4" }, [
-                    _c("form", [
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "email",
-                            id: "inputEmail",
-                            placeholder: "Email address or username",
-                            required: "",
-                            autofocus: ""
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "password",
-                            id: "inputPassword",
-                            placeholder: "Password",
-                            required: ""
-                          }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "button",
-                        {
-                          staticClass:
-                            "btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold my-4",
-                          attrs: { type: "submit" }
-                        },
-                        [_vm._v("Sign in")]
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("div", { staticClass: "text-center" }, [
-                      _c("a", { attrs: { href: "#" } }, [
-                        _vm._v("Forgot password?")
-                      ])
-                    ])
-                  ])
-                ])
-              ])
-            ])
-          ])
-        ])
+        _c("div", { staticClass: "form-group" }, [
+          _c("input", {
+            staticClass: "form-control",
+            attrs: {
+              type: "password",
+              id: "inputPassword",
+              placeholder: "Password"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass:
+              "btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold my-4",
+            attrs: { type: "submit" }
+          },
+          [_vm._v("Sign in")]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5 text" }, [
+      _c("span", [_vm._v("Do not have an account yet? ")]),
+      _vm._v(" "),
+      _c("span", { staticClass: "text-uppercase font-weight-bold" }, [
+        _c("a", { attrs: { href: "" } }, [_vm._v(" signup")])
       ])
     ])
   }
