@@ -1,13 +1,24 @@
 <style>
+    body {
+        background-color: #fff;
+    }
     .login,
     .image {
         min-height: 100vh;
     }
-
     .bg-image {
         background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
         background-size: cover;
         background-position: center;
+    }
+
+    .login input {
+        border-radius: .75rem;
+        padding: 1.25rem;
+    }
+    .login button {
+        border-radius: .75rem;
+        font-size: .85rem;
     }
 
     .icons span:not(:last-child){
@@ -18,7 +29,7 @@
         height: 16px;
         width: 16px;
         fill: #343a40;
-        transition: all 150ms;
+        transition: all 100ms;
     }
     .icons svg:hover {
         fill: #3490dc;
@@ -52,12 +63,12 @@
                                         <div class="form-group">
                                             <input type="password" id="inputPassword" class="form-control" placeholder="Password"/>
                                         </div>
-                                        <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold my-4" type="submit">Sign in</button>
+                                        <button class="btn btn-lg btn-primary btn-block text-uppercase mt-4" type="submit">log in</button>
                                     </form>
                                 </div>
 
 
-                                <div class="pt-2 icons text-center text">
+                                <div class="pt-4 icons text-center text">
                                     <div>
                                         Or use Social Media Account
                                     </div>
@@ -156,7 +167,7 @@
 
                                 <div class="pt-5 text">
                                     <span>Do not have an account yet? </span>
-                                    <span class="text-uppercase font-weight-bold"><a href=""> signup</a></span>
+                                    <span class="text-uppercase font-weight-bold"><a href=""> sign up</a></span>
                                 </div>
                             </div>
                         </div>
