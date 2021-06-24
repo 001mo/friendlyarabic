@@ -1,0 +1,69 @@
+@media(min-width: 576px){
+    .fa-container-sm-bound {
+        max-width: 540px !important;
+    }
+}
+@media(min-width: 787px){
+    .fa-container-md-bound {
+        max-width: 720px !important;
+    }
+}
+@media(min-width: 992px){
+    .fa-container-lg-bound {
+        max-width: 960px !important;
+    }
+}
+@media(min-width: 1200px){
+    .fa-container-xl-bound {
+        max-width: 1140px !important;
+    }
+}
+
+.fa-min-w-sm {
+    min-width: 576px !important;
+}
+
+.fa-min-w-md {
+    min-width: 768px !important;
+}
+
+.fa-min-w-lg {
+    min-width: 992px !important;
+}
+
+.fa-min-w-xl {
+    min-width: 1200px !important;
+}
+
+
+.fa-max-w-sm {
+    max-width: 576px !important;
+}
+
+.fa-max-w-md {
+    max-width: 768px !important;
+}
+
+.fa-max-w-lg {
+    max-width: 992px !important;
+}
+
+.fa-max-w-xl {
+    max-width: 1200px !important;
+}
+
+.btn.static:hover,
+.btn.static:focus,
+.btn.static:enabled,
+.btn.static:disabled,
+.btn.static:active {
+    outline: none;
+    box-shadow: none;
+}
+
+header {
+    height: 300px;
+    background-image: url('chain-690088_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}

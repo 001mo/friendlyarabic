@@ -22,6 +22,10 @@ window.Vue = require('vue').default;
 Vue.component('signup', require('./components/signup.vue').default);
 Vue.component('login', require('./components/login.vue').default);
 
+Vue.component('public-teachers-list', require('./components/teachers/PublicTeachersList.vue').default);
+Vue.component('student-teachers-list', require('./components/teachers/StudentTeachersList.vue').default);
+Vue.component('teacher-teachers-list', require('./components/teachers/TeacherTeachersList.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
