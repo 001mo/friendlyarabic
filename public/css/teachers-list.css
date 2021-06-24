@@ -1,0 +1,101 @@
+#searchinput span{
+    position: absolute;
+    top: .375rem;
+    left: .5rem;
+    padding: 0 !important;
+}
+#searchinput svg {
+    height: 17px;
+    width: 17px;
+    fill: inherit;
+}
+#searchinput input {
+    width: auto;
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    padding-right: .75rem;
+    padding-left: 2.125rem;
+}
+#serachinput input:focus {
+    outline: var(--primary);
+}
+
+.fa-card {
+    border: transparent 1px solid;
+    border-radius: 20px;
+}
+.fa-card.fa-card-shadow {
+    box-shadow: 0 4px 4px 0 #dedede;
+}
+.fa-card.fa-card-border {
+    border-color: #afafaf;
+}
+
+@media(max-width: 767px){
+    .fa-card {
+        border-width: 0 0 1px 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .fa-card.fa-card-shadow {
+        box-shadow: none;
+    }
+    .col-md-6:first-child .fa-card{
+        border-width: 1px 0;
+    }
+}
+
+.fa-card-header .like button.btn{
+    transition: all 200ms;
+}
+
+.fa-card-header .like button.btn:hover {
+    transform: scale(1.1);
+}
+.fa-card-header .like svg{
+    height: 20px;
+    width: 20px;
+}
+
+.fa-card-header .status-bar{
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: .2rem 1rem;
+    font-size: 11px;
+}
+
+.t-picture img {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 .4rem #8089c0;
+}
+
+.t-description {
+    height: 70px;
+    overflow: hidden;
+}
+
+.rating span {
+    padding-right: 3px;
+}
+.rating svg{
+    height: 12px;
+}
+
+
+span.flag {
+    border: #414141 1px solid;
+    padding: .05rem .75rem;
+}
+.flag svg {
+    fill: #000;
+    height: 15px;
+}
+
+.fa-card-btn {
+    padding: .25rem 1.25rem;
+    border-radius: 12px;
+    font-size: 12px;
+}

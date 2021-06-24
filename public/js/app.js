@@ -2145,6 +2145,3006 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/PublicTeachersList.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/PublicTeachersList.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  mounted: function mounted() {},
+  data: function data() {
+    return {
+      status: 'offline',
+      rate: 3,
+      liked: true
+    };
+  },
+  methods: {
+    like: function like() {
+      if (this.liked) {
+        this.liked = false;
+      } else {
+        this.liked = true; // var response = 'got saved in database ?';
+        // if(response.status !== 200){
+        // }
+      }
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/StudentTeachersList.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/StudentTeachersList.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  mounted: function mounted() {},
+  data: function data() {
+    return {
+      status: 'offline',
+      rate: 3,
+      liked: true
+    };
+  },
+  methods: {
+    like: function like() {
+      if (this.liked) {
+        this.liked = false;
+      } else {
+        this.liked = true; // var response = 'got saved in database ?';
+        // if(response.status !== 200){
+        // }
+      }
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  mounted: function mounted() {},
+  data: function data() {
+    return {
+      status: 'offline',
+      rate: 3,
+      liked: true
+    };
+  },
+  methods: {
+    like: function like() {
+      if (this.liked) {
+        this.liked = false;
+      } else {
+        this.liked = true; // var response = 'got saved in database ?';
+        // if(response.status !== 200){
+        // }
+      }
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -2171,6 +5171,9 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js"
 
 Vue.component('signup', __webpack_require__(/*! ./components/signup.vue */ "./resources/js/components/signup.vue").default);
 Vue.component('login', __webpack_require__(/*! ./components/login.vue */ "./resources/js/components/login.vue").default);
+Vue.component('public-teachers-list', __webpack_require__(/*! ./components/teachers/PublicTeachersList.vue */ "./resources/js/components/teachers/PublicTeachersList.vue").default);
+Vue.component('student-teachers-list', __webpack_require__(/*! ./components/teachers/StudentTeachersList.vue */ "./resources/js/components/teachers/StudentTeachersList.vue").default);
+Vue.component('teacher-teachers-list', __webpack_require__(/*! ./components/teachers/TeacherTeachersList.vue */ "./resources/js/components/teachers/TeacherTeachersList.vue").default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -37822,6 +40825,123 @@ component.options.__file = "resources/js/components/signup.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/teachers/PublicTeachersList.vue":
+/*!*****************************************************************!*\
+  !*** ./resources/js/components/teachers/PublicTeachersList.vue ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _PublicTeachersList_vue_vue_type_template_id_3ff1138a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PublicTeachersList.vue?vue&type=template&id=3ff1138a& */ "./resources/js/components/teachers/PublicTeachersList.vue?vue&type=template&id=3ff1138a&");
+/* harmony import */ var _PublicTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PublicTeachersList.vue?vue&type=script&lang=js& */ "./resources/js/components/teachers/PublicTeachersList.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _PublicTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _PublicTeachersList_vue_vue_type_template_id_3ff1138a___WEBPACK_IMPORTED_MODULE_0__.render,
+  _PublicTeachersList_vue_vue_type_template_id_3ff1138a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/teachers/PublicTeachersList.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/teachers/StudentTeachersList.vue":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/teachers/StudentTeachersList.vue ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _StudentTeachersList_vue_vue_type_template_id_5aa83f52___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StudentTeachersList.vue?vue&type=template&id=5aa83f52& */ "./resources/js/components/teachers/StudentTeachersList.vue?vue&type=template&id=5aa83f52&");
+/* harmony import */ var _StudentTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StudentTeachersList.vue?vue&type=script&lang=js& */ "./resources/js/components/teachers/StudentTeachersList.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _StudentTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _StudentTeachersList_vue_vue_type_template_id_5aa83f52___WEBPACK_IMPORTED_MODULE_0__.render,
+  _StudentTeachersList_vue_vue_type_template_id_5aa83f52___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/teachers/StudentTeachersList.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/teachers/TeacherTeachersList.vue":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/teachers/TeacherTeachersList.vue ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TeacherTeachersList_vue_vue_type_template_id_35fcfbfe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TeacherTeachersList.vue?vue&type=template&id=35fcfbfe& */ "./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=template&id=35fcfbfe&");
+/* harmony import */ var _TeacherTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TeacherTeachersList.vue?vue&type=script&lang=js& */ "./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _TeacherTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _TeacherTeachersList_vue_vue_type_template_id_35fcfbfe___WEBPACK_IMPORTED_MODULE_0__.render,
+  _TeacherTeachersList_vue_vue_type_template_id_35fcfbfe___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/teachers/TeacherTeachersList.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/login.vue?vue&type=script&lang=js&":
 /*!********************************************************************!*\
   !*** ./resources/js/components/login.vue?vue&type=script&lang=js& ***!
@@ -37862,6 +40982,54 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/teachers/PublicTeachersList.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/teachers/PublicTeachersList.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PublicTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PublicTeachersList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/PublicTeachersList.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PublicTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/teachers/StudentTeachersList.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/teachers/StudentTeachersList.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StudentTeachersList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/StudentTeachersList.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TeacherTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./TeacherTeachersList.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TeacherTeachersList_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/login.vue?vue&type=template&id=172b28a4&":
 /*!**************************************************************************!*\
   !*** ./resources/js/components/login.vue?vue&type=template&id=172b28a4& ***!
@@ -37892,6 +41060,57 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_signup_vue_vue_type_template_id_358611ba___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_signup_vue_vue_type_template_id_358611ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./signup.vue?vue&type=template&id=358611ba& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/signup.vue?vue&type=template&id=358611ba&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/teachers/PublicTeachersList.vue?vue&type=template&id=3ff1138a&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/teachers/PublicTeachersList.vue?vue&type=template&id=3ff1138a& ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PublicTeachersList_vue_vue_type_template_id_3ff1138a___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PublicTeachersList_vue_vue_type_template_id_3ff1138a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PublicTeachersList_vue_vue_type_template_id_3ff1138a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PublicTeachersList.vue?vue&type=template&id=3ff1138a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/PublicTeachersList.vue?vue&type=template&id=3ff1138a&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/teachers/StudentTeachersList.vue?vue&type=template&id=5aa83f52&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/components/teachers/StudentTeachersList.vue?vue&type=template&id=5aa83f52& ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeachersList_vue_vue_type_template_id_5aa83f52___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeachersList_vue_vue_type_template_id_5aa83f52___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeachersList_vue_vue_type_template_id_5aa83f52___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StudentTeachersList.vue?vue&type=template&id=5aa83f52& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/StudentTeachersList.vue?vue&type=template&id=5aa83f52&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=template&id=35fcfbfe&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=template&id=35fcfbfe& ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TeacherTeachersList_vue_vue_type_template_id_35fcfbfe___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TeacherTeachersList_vue_vue_type_template_id_35fcfbfe___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TeacherTeachersList_vue_vue_type_template_id_35fcfbfe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./TeacherTeachersList.vue?vue&type=template&id=35fcfbfe& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=template&id=35fcfbfe&");
 
 
 /***/ }),
@@ -38454,6 +41673,5352 @@ var staticRenderFns = [
       _c("span", { staticClass: "font-weight-bold" }, [
         _c("a", { attrs: { href: "" } }, [_vm._v("Privacy Policy")])
       ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/PublicTeachersList.vue?vue&type=template&id=3ff1138a&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/PublicTeachersList.vue?vue&type=template&id=3ff1138a& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container fa-container-lg-bound pt-4" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass:
+          "row justify-content-md-between flex-wrap-reverse pt-5 px-4 px-md-0"
+      },
+      [
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3 px-0 pt-3 pt-md-0 text-right" }, [
+          _c("div", [
+            _c("div", { staticClass: "p-0 ", attrs: { id: "searchinput" } }, [
+              _c("span", [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 512 512"
+                    }
+                  },
+                  [
+                    _c("g", [
+                      _c("g", [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M225.474,0C101.151,0,0,101.151,0,225.474c0,124.33,101.151,225.474,225.474,225.474\n                                        c124.33,0,225.474-101.144,225.474-225.474C450.948,101.151,349.804,0,225.474,0z M225.474,409.323\n                                        c-101.373,0-183.848-82.475-183.848-183.848S124.101,41.626,225.474,41.626s183.848,82.475,183.848,183.848\n                                        S326.847,409.323,225.474,409.323z"
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("g", [
+                      _c("g", [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M505.902,476.472L386.574,357.144c-8.131-8.131-21.299-8.131-29.43,0c-8.131,8.124-8.131,21.306,0,29.43l119.328,119.328\n                                        c4.065,4.065,9.387,6.098,14.715,6.098c5.321,0,10.649-2.033,14.715-6.098C514.033,497.778,514.033,484.596,505.902,476.472z"
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(2)
+            ])
+          ])
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _vm._m(3),
+    _vm._v(" "),
+    _c("div", { staticClass: "row pt-5" }, [
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-shadow pb-3" }, [
+          _c("div", { staticClass: "text-center px-4 pt-4" }, [
+            _vm._m(4),
+            _vm._v(" "),
+            _vm._m(5),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(6),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-shadow pb-3" }, [
+          _c("div", { staticClass: "text-center px-4 pt-4" }, [
+            _vm._m(7),
+            _vm._v(" "),
+            _vm._m(8),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(9),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-shadow pb-3" }, [
+          _c("div", { staticClass: "text-center px-4 pt-4" }, [
+            _vm._m(10),
+            _vm._v(" "),
+            _vm._m(11),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(12),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-shadow pb-3" }, [
+          _c("div", { staticClass: "text-center px-4 pt-4" }, [
+            _vm._m(13),
+            _vm._v(" "),
+            _vm._m(14),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(15),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-shadow pb-3" }, [
+          _c("div", { staticClass: "text-center px-4 pt-4" }, [
+            _vm._m(16),
+            _vm._v(" "),
+            _vm._m(17),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(18),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-shadow pb-3" }, [
+          _c("div", { staticClass: "text-center px-4 pt-4" }, [
+            _vm._m(19),
+            _vm._v(" "),
+            _vm._m(20),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(21),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row pt-5 px-4 px-md-0" }, [
+      _c("h4", { staticClass: "m-0" }, [_vm._v("Find a teacher")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-8 px-0" }, [
+      _c("div", { staticClass: "row mx-0 d-md-inline-block" }, [
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0 pl-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Lesson level")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Type of lesson")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Rating")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("form", [
+      _c(
+        "div",
+        { staticClass: "border rounded border-secondary text-center" },
+        [_vm._v("Lesson level")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row pt-5 px-4 px-md-0" }, [
+      _c("h4", { staticClass: "m-0" }, [_vm._v("Our teachers")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/StudentTeachersList.vue?vue&type=template&id=5aa83f52&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/StudentTeachersList.vue?vue&type=template&id=5aa83f52& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container fa-container-lg-bound pt-4" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass:
+          "row justify-content-md-between flex-wrap-reverse pt-5 px-4 px-md-0"
+      },
+      [
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3 px-0 pt-3 pt-md-0 text-right" }, [
+          _c("div", [
+            _c("div", { staticClass: "p-0 ", attrs: { id: "searchinput" } }, [
+              _c("span", [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 512 512"
+                    }
+                  },
+                  [
+                    _c("g", [
+                      _c("g", [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M225.474,0C101.151,0,0,101.151,0,225.474c0,124.33,101.151,225.474,225.474,225.474\n                                        c124.33,0,225.474-101.144,225.474-225.474C450.948,101.151,349.804,0,225.474,0z M225.474,409.323\n                                        c-101.373,0-183.848-82.475-183.848-183.848S124.101,41.626,225.474,41.626s183.848,82.475,183.848,183.848\n                                        S326.847,409.323,225.474,409.323z"
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("g", [
+                      _c("g", [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M505.902,476.472L386.574,357.144c-8.131-8.131-21.299-8.131-29.43,0c-8.131,8.124-8.131,21.306,0,29.43l119.328,119.328\n                                        c4.065,4.065,9.387,6.098,14.715,6.098c5.321,0,10.649-2.033,14.715-6.098C514.033,497.778,514.033,484.596,505.902,476.472z"
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(2)
+            ])
+          ])
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _vm._m(3),
+    _vm._v(" "),
+    _c("div", { staticClass: "row pt-5" }, [
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(4),
+            _vm._v(" "),
+            _vm._m(5),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(6),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(7),
+            _vm._v(" "),
+            _vm._m(8),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(9),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(10),
+            _vm._v(" "),
+            _vm._m(11),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(12),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(13),
+            _vm._v(" "),
+            _vm._m(14),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(15),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(16),
+            _vm._v(" "),
+            _vm._m(17),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(18),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(19),
+            _vm._v(" "),
+            _vm._m(20),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#f3d250"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(5 - _vm.rate, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#848484"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row mx-0 flex-nowrap justify-content-between-md px-5 pt-5"
+            },
+            [
+              _vm._m(21),
+              _vm._v(" "),
+              _c("span", { staticClass: "mx-auto" }, [
+                _c(
+                  "button",
+                  { staticClass: "fa-card-btn btn btn-primary text-uppercase" },
+                  [
+                    _vm.status == "available"
+                      ? _c("span", [_vm._v("call")])
+                      : _c("span", [_vm._v("book")])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row pt-5 px-4 px-md-0" }, [
+      _c("h4", { staticClass: "m-0" }, [_vm._v("Find a teacher")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-8 px-0" }, [
+      _c("div", { staticClass: "row mx-0 d-md-inline-block" }, [
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0 pl-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Lesson level")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Type of lesson")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Rating")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("form", [
+      _c(
+        "div",
+        { staticClass: "border rounded border-secondary text-center" },
+        [_vm._v("Lesson level")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row pt-5 px-4 px-md-0" }, [
+      _c("h4", { staticClass: "m-0" }, [_vm._v("Our teachers")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=template&id=35fcfbfe&":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/teachers/TeacherTeachersList.vue?vue&type=template&id=35fcfbfe& ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container fa-container-lg-bound pt-4" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass:
+          "row justify-content-md-between flex-wrap-reverse pt-5 px-4 px-md-0"
+      },
+      [
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3 px-0 pt-3 pt-md-0 text-right" }, [
+          _c("div", [
+            _c("div", { staticClass: "p-0 ", attrs: { id: "searchinput" } }, [
+              _c("span", [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 512 512"
+                    }
+                  },
+                  [
+                    _c("g", [
+                      _c("g", [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M225.474,0C101.151,0,0,101.151,0,225.474c0,124.33,101.151,225.474,225.474,225.474\n                                        c124.33,0,225.474-101.144,225.474-225.474C450.948,101.151,349.804,0,225.474,0z M225.474,409.323\n                                        c-101.373,0-183.848-82.475-183.848-183.848S124.101,41.626,225.474,41.626s183.848,82.475,183.848,183.848\n                                        S326.847,409.323,225.474,409.323z"
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("g", [
+                      _c("g", [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M505.902,476.472L386.574,357.144c-8.131-8.131-21.299-8.131-29.43,0c-8.131,8.124-8.131,21.306,0,29.43l119.328,119.328\n                                        c4.065,4.065,9.387,6.098,14.715,6.098c5.321,0,10.649-2.033,14.715-6.098C514.033,497.778,514.033,484.596,505.902,476.472z"
+                          }
+                        })
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(2)
+            ])
+          ])
+        ])
+      ]
+    ),
+    _vm._v(" "),
+    _vm._m(3),
+    _vm._v(" "),
+    _c("div", { staticClass: "row pt-5" }, [
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(4),
+            _vm._v(" "),
+            _vm._m(5),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#ffc107"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(2, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(6)
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(7),
+            _vm._v(" "),
+            _vm._m(8),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#ffc107"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(2, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(9)
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(10),
+            _vm._v(" "),
+            _vm._m(11),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#ffc107"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(2, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(12)
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(13),
+            _vm._v(" "),
+            _vm._m(14),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#ffc107"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(2, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(15)
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(16),
+            _vm._v(" "),
+            _vm._m(17),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#ffc107"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(2, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(18)
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6 col-lg-4 px-4 py-md-2 px-md-1" }, [
+        _c("div", { staticClass: "fa-card fa-card-border pb-3" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "row no-gutters justify-content-between px-3 pt-3 fa-card-header"
+            },
+            [
+              _vm.status == "available"
+                ? _c("span", {
+                    staticClass: "status-bar bg-success text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "busy"
+                ? _c("span", {
+                    staticClass: "status-bar bg-danger text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.status == "offline"
+                ? _c("span", {
+                    staticClass: "status-bar bg-secondary text-capitalize",
+                    domProps: { innerHTML: _vm._s(_vm.status) }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("span", { staticClass: "like" }, [
+                _c(
+                  "button",
+                  { staticClass: "btn p-0 static", on: { click: _vm.like } },
+                  [
+                    _vm.liked
+                      ? _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    staticStyle: { fill: "#f44336" },
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646\n                                                c-18.969-24.896-65.875-77.646-122.667-77.646C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.563,49.479,116.469\n                                                c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125\n                                                L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208c0.771-0.76,1.406-1.615,1.896-2.542\n                                                C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                      : _c("span", [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 512 512"
+                              }
+                            },
+                            [
+                              _c("g", [
+                                _c("g", [
+                                  _c("path", {
+                                    attrs: {
+                                      d:
+                                        "M378.667,21.333c-56.792,0-103.698,52.75-122.667,77.646c-18.969-24.896-65.875-77.646-122.667-77.646\n                                                C59.813,21.333,0,88.927,0,172c0,45.323,17.99,87.562,49.479,116.469c0.458,0.792,1.021,1.521,1.677,2.177l197.313,196.906\n                                                c2.083,2.073,4.802,3.115,7.531,3.115s5.458-1.042,7.542-3.125L467.417,283.74l2.104-2.042c1.667-1.573,3.313-3.167,5.156-5.208\n                                                c0.771-0.76,1.406-1.615,1.896-2.542C499.438,245.948,512,209.833,512,172C512,88.927,452.188,21.333,378.667,21.333z\n                                                M458.823,261.948c-0.292,0.344-0.563,0.708-0.802,1.083c-1,1.146-2.094,2.156-3.177,3.188L255.99,464.927L68.667,277.979\n                                                c-0.604-1.188-1.448-2.271-2.479-3.177C37.677,249.906,21.333,212.437,21.333,172c0-71.313,50.24-129.333,112-129.333\n                                                c61.063,0,113.177,79.646,113.698,80.448c3.938,6.083,14,6.083,17.938,0c0.521-0.802,52.635-80.448,113.698-80.448\n                                                c61.76,0,112,58.021,112,129.333C490.667,205.604,479.354,237.552,458.823,261.948z"
+                                    }
+                                  })
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g"),
+                              _vm._v(" "),
+                              _c("g")
+                            ]
+                          )
+                        ])
+                  ]
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-center px-4" }, [
+            _vm._m(19),
+            _vm._v(" "),
+            _vm._m(20),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c(
+                "span",
+                { staticClass: "rating" },
+                [
+                  _vm._l(_vm.rate, function(n) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                              fill: "#ffc107"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  }),
+                  _vm._v(" "),
+                  _vm._l(2, function(m) {
+                    return _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            viewBox: "0 -10 511.98685 511",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0"
+                            }
+                          })
+                        ]
+                      )
+                    ])
+                  })
+                ],
+                2
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "flag" }, [
+                _c(
+                  "svg",
+                  {
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      viewBox: "0 0 60 60"
+                    }
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        d:
+                          "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g"),
+                    _vm._v(" "),
+                    _c("g")
+                  ]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-4 t-description" }, [
+              _vm._v(
+                "\n                        You'll run into problems trying to manually enter a dimension as text if\n                    "
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(21)
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row pt-5 px-4 px-md-0" }, [
+      _c("h4", { staticClass: "m-0" }, [_vm._v("Find a teacher")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-8 px-0" }, [
+      _c("div", { staticClass: "row mx-0 d-md-inline-block" }, [
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0 pl-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Lesson level")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Type of lesson")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col d-md-inline pt-3 pt-md-0" }, [
+          _c("button", { staticClass: "btn btn-outline-secondary" }, [
+            _vm._v("Rating")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("form", [
+      _c(
+        "div",
+        { staticClass: "border rounded border-secondary text-center" },
+        [_vm._v("Lesson level")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row pt-5 px-4 px-md-0" }, [
+      _c("h4", { staticClass: "m-0" }, [_vm._v("Our teachers")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-2" }, [
+      _c("div", { staticClass: "t-picture" }, [
+        _c("img", { attrs: { src: "https://picsum.photos/200" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("Teacher's name")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c(
+        "button",
+        {
+          staticClass:
+            "fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold",
+          attrs: { type: "" }
+        },
+        [_vm._v("proflie")]
+      )
     ])
   }
 ]
