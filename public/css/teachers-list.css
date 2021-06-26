@@ -1,3 +1,10 @@
+header {
+    height: 300px;
+    background-image: url('chain-690088_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 #searchinput span{
     position: absolute;
     top: .375rem;
@@ -16,32 +23,22 @@
     padding-right: .75rem;
     padding-left: 2.125rem;
 }
-#serachinput input:focus {
-    outline: var(--primary);
-}
 
 .fa-card {
     border: transparent 1px solid;
     border-radius: 20px;
-}
-.fa-card.fa-card-shadow {
     box-shadow: 0 4px 4px 0 #dedede;
-}
-.fa-card.fa-card-border {
-    border-color: #afafaf;
 }
 
 @media(max-width: 767px){
+    .row.list div{
+        max-width: 375px;
+    }
     .fa-card {
+        border-color: #afafaf;
         border-width: 0 0 1px 0;
         border-radius: 0;
         box-shadow: none;
-    }
-    .fa-card.fa-card-shadow {
-        box-shadow: none;
-    }
-    .col-md-6:first-child .fa-card{
-        border-width: 1px 0;
     }
 }
 
@@ -72,7 +69,7 @@
     box-shadow: 0 0 0 .4rem #8089c0;
 }
 
-.t-description {
+.h70 {
     height: 70px;
     overflow: hidden;
 }

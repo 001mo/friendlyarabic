@@ -87,9 +87,9 @@
             <h4 class="m-0">Our teachers</h4>
         </div>
 
-        <div class="row pt-5">
-            <div class="col-md-6 col-lg-4 px-4 py-md-2 px-md-1">
-                <div class="fa-card fa-card-border pb-3">
+        <div class="row no-gutters list justify-content-center py-5">
+            <div class="col-md-6 col-lg-4 py-md-2 px-md-1">
+                <div class="fa-card bg-white pb-3">
                     <div class="row no-gutters justify-content-between px-3 pt-3 fa-card-header">
                         <span class="status-bar bg-success text-capitalize" v-if="status == 'available'" v-html="status"></span>
                         <span class="status-bar bg-danger text-capitalize" v-if="status == 'busy'" v-html="status"></span>
@@ -251,25 +251,29 @@
                                 </svg>
                             </span>
                         </div>
-                        <div class="pt-4 t-description">
+                        <div class="pt-4 h70">
                             You'll run into problems trying to manually enter a dimension as text if
                         </div>
                     </div>
                     <div class="row mx-0 flex-nowrap justify-content-between-md px-5 pt-5">
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
-                        </span>
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-primary text-uppercase">
-                                <span v-if="status == 'available'">call</span>
-                                <span v-else>book</span>
-                            </button>
-                        </span>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
+                            </div>
+                        </div>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-primary text-uppercase">
+                                    <span v-if="status == 'available'">call</span>
+                                    <span v-else>book</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 px-4 py-md-2 px-md-1">
-                <div class="fa-card fa-card-border pb-3">
+            <div class="col-md-6 col-lg-4 py-md-2 px-md-1">
+                <div class="fa-card bg-white pb-3">
                     <div class="row no-gutters justify-content-between px-3 pt-3 fa-card-header">
                         <span class="status-bar bg-success text-capitalize" v-if="status == 'available'" v-html="status"></span>
                         <span class="status-bar bg-danger text-capitalize" v-if="status == 'busy'" v-html="status"></span>
@@ -431,25 +435,29 @@
                                 </svg>
                             </span>
                         </div>
-                        <div class="pt-4 t-description">
+                        <div class="pt-4 h70">
                             You'll run into problems trying to manually enter a dimension as text if
                         </div>
                     </div>
                     <div class="row mx-0 flex-nowrap justify-content-between-md px-5 pt-5">
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
-                        </span>
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-primary text-uppercase">
-                                <span v-if="status == 'available'">call</span>
-                                <span v-else>book</span>
-                            </button>
-                        </span>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
+                            </div>
+                        </div>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-primary text-uppercase">
+                                    <span v-if="status == 'available'">call</span>
+                                    <span v-else>book</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 px-4 py-md-2 px-md-1">
-                <div class="fa-card fa-card-border pb-3">
+            <div class="col-md-6 col-lg-4 py-md-2 px-md-1">
+                <div class="fa-card bg-white pb-3">
                     <div class="row no-gutters justify-content-between px-3 pt-3 fa-card-header">
                         <span class="status-bar bg-success text-capitalize" v-if="status == 'available'" v-html="status"></span>
                         <span class="status-bar bg-danger text-capitalize" v-if="status == 'busy'" v-html="status"></span>
@@ -611,25 +619,29 @@
                                 </svg>
                             </span>
                         </div>
-                        <div class="pt-4 t-description">
+                        <div class="pt-4 h70">
                             You'll run into problems trying to manually enter a dimension as text if
                         </div>
                     </div>
                     <div class="row mx-0 flex-nowrap justify-content-between-md px-5 pt-5">
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
-                        </span>
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-primary text-uppercase">
-                                <span v-if="status == 'available'">call</span>
-                                <span v-else>book</span>
-                            </button>
-                        </span>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
+                            </div>
+                        </div>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-primary text-uppercase">
+                                    <span v-if="status == 'available'">call</span>
+                                    <span v-else>book</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 px-4 py-md-2 px-md-1">
-                <div class="fa-card fa-card-border pb-3">
+            <div class="col-md-6 col-lg-4 py-md-2 px-md-1">
+                <div class="fa-card bg-white pb-3">
                     <div class="row no-gutters justify-content-between px-3 pt-3 fa-card-header">
                         <span class="status-bar bg-success text-capitalize" v-if="status == 'available'" v-html="status"></span>
                         <span class="status-bar bg-danger text-capitalize" v-if="status == 'busy'" v-html="status"></span>
@@ -791,25 +803,29 @@
                                 </svg>
                             </span>
                         </div>
-                        <div class="pt-4 t-description">
+                        <div class="pt-4 h70">
                             You'll run into problems trying to manually enter a dimension as text if
                         </div>
                     </div>
                     <div class="row mx-0 flex-nowrap justify-content-between-md px-5 pt-5">
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
-                        </span>
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-primary text-uppercase">
-                                <span v-if="status == 'available'">call</span>
-                                <span v-else>book</span>
-                            </button>
-                        </span>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
+                            </div>
+                        </div>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-primary text-uppercase">
+                                    <span v-if="status == 'available'">call</span>
+                                    <span v-else>book</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 px-4 py-md-2 px-md-1">
-                <div class="fa-card fa-card-border pb-3">
+            <div class="col-md-6 col-lg-4 py-md-2 px-md-1">
+                <div class="fa-card bg-white pb-3">
                     <div class="row no-gutters justify-content-between px-3 pt-3 fa-card-header">
                         <span class="status-bar bg-success text-capitalize" v-if="status == 'available'" v-html="status"></span>
                         <span class="status-bar bg-danger text-capitalize" v-if="status == 'busy'" v-html="status"></span>
@@ -971,25 +987,29 @@
                                 </svg>
                             </span>
                         </div>
-                        <div class="pt-4 t-description">
+                        <div class="pt-4 h70">
                             You'll run into problems trying to manually enter a dimension as text if
                         </div>
                     </div>
                     <div class="row mx-0 flex-nowrap justify-content-between-md px-5 pt-5">
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
-                        </span>
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-primary text-uppercase">
-                                <span v-if="status == 'available'">call</span>
-                                <span v-else>book</span>
-                            </button>
-                        </span>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
+                            </div>
+                        </div>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-primary text-uppercase">
+                                    <span v-if="status == 'available'">call</span>
+                                    <span v-else>book</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 px-4 py-md-2 px-md-1">
-                <div class="fa-card fa-card-border pb-3">
+            <div class="col-md-6 col-lg-4 py-md-2 px-md-1">
+                <div class="fa-card bg-white pb-3">
                     <div class="row no-gutters justify-content-between px-3 pt-3 fa-card-header">
                         <span class="status-bar bg-success text-capitalize" v-if="status == 'available'" v-html="status"></span>
                         <span class="status-bar bg-danger text-capitalize" v-if="status == 'busy'" v-html="status"></span>
@@ -1151,20 +1171,24 @@
                                 </svg>
                             </span>
                         </div>
-                        <div class="pt-4 t-description">
+                        <div class="pt-4 h70">
                             You'll run into problems trying to manually enter a dimension as text if
                         </div>
                     </div>
                     <div class="row mx-0 flex-nowrap justify-content-between-md px-5 pt-5">
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
-                        </span>
-                        <span class="mx-auto">
-                            <button class="fa-card-btn btn btn-primary text-uppercase">
-                                <span v-if="status == 'available'">call</span>
-                                <span v-else>book</span>
-                            </button>
-                        </span>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-outline-primary text-uppercase font-weight-bold" type="">proflie</button>
+                            </div>
+                        </div>
+                        <div class="mx-auto">
+                            <div>
+                                <button class="fa-card-btn btn btn-primary text-uppercase">
+                                    <span v-if="status == 'available'">call</span>
+                                    <span v-else>book</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
