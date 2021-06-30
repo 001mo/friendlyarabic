@@ -5224,6 +5224,7 @@ Vue.component('login', __webpack_require__(/*! ./components/login.vue */ "./reso
 Vue.component('public-teachers-list', __webpack_require__(/*! ./components/teachers/PublicTeachersList.vue */ "./resources/js/components/teachers/PublicTeachersList.vue").default);
 Vue.component('student-teachers-list', __webpack_require__(/*! ./components/teachers/StudentTeachersList.vue */ "./resources/js/components/teachers/StudentTeachersList.vue").default);
 Vue.component('teacher-teachers-list', __webpack_require__(/*! ./components/teachers/TeacherTeachersList.vue */ "./resources/js/components/teachers/TeacherTeachersList.vue").default);
+Vue.component('student-teachers-profile', __webpack_require__(/*! ./components/StudentTeacherProfile.vue */ "./resources/js/components/StudentTeacherProfile.vue").default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -9717,6 +9718,30 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 })));
 //# sourceMappingURL=bootstrap.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* @media(min-width: 768px){\n    .t-picture img {\n        height:  300px;\n        width: 300px;\n        border: transparent 1px solid;\n        border-radius: 20px;\n    }\n} */\n.rating span {\n    padding-right: 3px;\n}\n.rating svg{\n    height: 14px;\n}\nspan.flag {\n    border: #414141 1px solid;\n    padding: .25rem 1.25rem;\n}\n.flag svg {\n    fill: #000;\n    height: 20px;\n}\n.t-description {\n    overflow: hidden;\n}\n@media(min-width: 768px){\n.t-description {\n        height: 186px;\n}\n}\n.btn-xl {\n    font-size: 15px;\n}\n.bar{\ncolor: #fff;\nborder: 1px solid transparent;\nborder-radius: 20px;\npadding: .25rem 1.5rem;\nfont-size: 13px;\n}\n.h39 {\n    max-height: 39px !important;\n    overflow: hidden;\n}\n.h23 {\n    max-height: 23px !important;\n    overflow: hidden;\n}\n.h120 {\n    max-height: 120px !important;\n    overflow: hidden;\n}\n#teachersVid {\n    padding: 2rem;\n    background-color: #9e9e9e;\n    border: 1px solid transparent;\n    border-radius: 1rem;\n}\n#teachersVid img {\n    border: 1px solid transparent;\n    border-radius: 1rem;\n}\n#calendar {\n    text-align: center;\n    border: 1px solid transparent;\n    border-radius: 1rem;\n    border-color: #9e9e9e;\n    color: #414141;\n    fill: #9e9e9e;\n}\n\n/* month yyyy  */\n#calendar .calendarHeader svg {\n    height: 14px;\n    margin-bottom: 4px;\n}\n#calendar .calendarHeader h5 {\n    display: inline;\n    font-weight: 600;\n}\n\n/* week day name row */\n#calendar tr#tableHead th, #calendar tr#tableHead td {\n    text-transform: uppercase;\n    color: #9e9e9e;\n}\n/* day rows */\n#calender .table, #calendar table{\n    color:inherit\n}\n#calendar th, #calendar td {\n    border: none;\n    text-align: center;\n    padding: 1rem;\n    font-weight: 500;\n    font-size: 1rem;\n    color: inherit;\n}\n\n/* day hover */\n#calendar th div, #calendar td div{\n    padding: .5rem;\n    border: 1px solid transparent;\n    border-radius: 50%;\n}\n#calendar tr:not(#tableHead) th div:hover, #calendar tr:not(#tableHead) td div:hover{\n    background-color: #9e9e9e80;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
@@ -40787,6 +40812,45 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./resources/js/components/StudentTeacherProfile.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/StudentTeacherProfile.vue ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _StudentTeacherProfile_vue_vue_type_template_id_ce08e7b2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StudentTeacherProfile.vue?vue&type=template&id=ce08e7b2& */ "./resources/js/components/StudentTeacherProfile.vue?vue&type=template&id=ce08e7b2&");
+/* harmony import */ var _StudentTeacherProfile_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StudentTeacherProfile.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  script,
+  _StudentTeacherProfile_vue_vue_type_template_id_ce08e7b2___WEBPACK_IMPORTED_MODULE_0__.render,
+  _StudentTeacherProfile_vue_vue_type_template_id_ce08e7b2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/StudentTeacherProfile.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/login.vue":
 /*!*******************************************!*\
   !*** ./resources/js/components/login.vue ***!
@@ -41080,6 +41144,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/StudentTeacherProfile.vue?vue&type=template&id=ce08e7b2&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/components/StudentTeacherProfile.vue?vue&type=template&id=ce08e7b2& ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeacherProfile_vue_vue_type_template_id_ce08e7b2___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeacherProfile_vue_vue_type_template_id_ce08e7b2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeacherProfile_vue_vue_type_template_id_ce08e7b2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StudentTeacherProfile.vue?vue&type=template&id=ce08e7b2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=template&id=ce08e7b2&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/login.vue?vue&type=template&id=172b28a4&":
 /*!**************************************************************************!*\
   !*** ./resources/js/components/login.vue?vue&type=template&id=172b28a4& ***!
@@ -41165,6 +41246,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeacherProfile_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-style-loader/index.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StudentTeacherProfile.vue?vue&type=style&index=0&lang=css& */ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeacherProfile_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeacherProfile_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeacherProfile_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_StudentTeacherProfile_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
 /***/ "./resources/js/components/login.vue?vue&type=style&index=0&lang=css&":
 /*!****************************************************************************!*\
   !*** ./resources/js/components/login.vue?vue&type=style&index=0&lang=css& ***!
@@ -41195,6 +41293,662 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
 /* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_signup_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_signup_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
 /* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=template&id=ce08e7b2&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=template&id=ce08e7b2& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container fa-container-lg-bound" }, [
+    _c("div", { staticClass: "pt-10" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "row no-gutters justify-content-center bg-white p-4 border rounded"
+        },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 col-md-8 pt-5 pt-md-0 pl-md-5" }, [
+            _vm._m(1),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c("span", [
+                _c("span", { staticClass: "rating" }, [
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          viewBox: "0 -10 511.98685 511",
+                          xmlns: "http://www.w3.org/2000/svg"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                            fill: "#f3d250"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          viewBox: "0 -10 511.98685 511",
+                          xmlns: "http://www.w3.org/2000/svg"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                            fill: "#f3d250"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          viewBox: "0 -10 511.98685 511",
+                          xmlns: "http://www.w3.org/2000/svg"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                            fill: "#f3d250"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          viewBox: "0 -10 511.98685 511",
+                          xmlns: "http://www.w3.org/2000/svg"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                            fill: "#848484"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          viewBox: "0 -10 511.98685 511",
+                          xmlns: "http://www.w3.org/2000/svg"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "m510.652344 185.902344c-3.351563-10.367188-12.546875-17.730469-23.425782-18.710938l-147.773437-13.417968-58.433594-136.769532c-4.308593-10.023437-14.121093-16.511718-25.023437-16.511718s-20.714844 6.488281-25.023438 16.535156l-58.433594 136.746094-147.796874 13.417968c-10.859376 1.003906-20.03125 8.34375-23.402344 18.710938-3.371094 10.367187-.257813 21.738281 7.957031 28.90625l111.699219 97.960937-32.9375 145.089844c-2.410156 10.667969 1.730468 21.695313 10.582031 28.09375 4.757813 3.4375 10.324219 5.1875 15.9375 5.1875 4.839844 0 9.640625-1.304687 13.949219-3.882813l127.46875-76.183593 127.421875 76.183593c9.324219 5.609376 21.078125 5.097657 29.910156-1.304687 8.855469-6.417969 12.992187-17.449219 10.582031-28.09375l-32.9375-145.089844 111.699219-97.941406c8.214844-7.1875 11.351563-18.539063 7.980469-28.925781zm0 0",
+                            fill: "#848484"
+                          }
+                        })
+                      ]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "pl-4" }, [
+                _c("span", { staticClass: "flag" }, [
+                  _c(
+                    "svg",
+                    {
+                      attrs: {
+                        xmlns: "http://www.w3.org/2000/svg",
+                        viewBox: "0 0 60 60"
+                      }
+                    },
+                    [
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M51.371,3.146c-0.459-0.185-11.359-4.452-19.84,0.045C24.811,6.758,13.015,4.082,10,3.308V1c0-0.553-0.447-1-1-1\n                                    S8,0.447,8,1v3c0,0.014,0.007,0.026,0.008,0.04C8.008,4.052,8,4.062,8,4.074V33v1.074V59c0,0.553,0.447,1,1,1s1-0.447,1-1V35.375\n                                    c2.273,0.567,7.227,1.632,12.368,1.632c3.557,0,7.2-0.511,10.101-2.049c7.652-4.061,18.056,0.004,18.16,0.045\n                                    c0.309,0.124,0.657,0.086,0.932-0.102C51.835,34.716,52,34.406,52,34.074v-30C52,3.665,51.751,3.298,51.371,3.146z M50,32.665\n                                    c-3.26-1.038-11.646-3.096-18.469,0.525C24.812,36.756,13.02,34.082,10,33.308V33V5.375c3.853,0.961,15.381,3.343,22.469-0.417\n                                    C39.035,1.475,47.627,3.973,50,4.777V32.665z"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g"),
+                      _vm._v(" "),
+                      _c("g")
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._m(2)
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-5 t-description text-muted" }, [
+              _vm._v(
+                "\n                    Chilling Vibes presents a compilation of the best Chillout Vibes - Relaxing Music.\n                    Enjoy the best Piano Music to Relax, chillout, background music, anime music, meditation music, study music, music for work and music for sleep.\n                    The best instrumental music composed of carefully selected relaxing music. Your perfect late night mix playlist.\n                    Enjoy the best Piano Music to Relax, chillout, background music, anime music, meditation music, study music, music for work and music for sleep\n                "
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(3)
+          ])
+        ]
+      )
+    ]),
+    _vm._v(" "),
+    _vm._m(4),
+    _vm._v(" "),
+    _vm._m(5),
+    _vm._v(" "),
+    _vm._m(6),
+    _vm._v(" "),
+    _vm._m(7),
+    _vm._v(" "),
+    _vm._m(8),
+    _vm._v(" "),
+    _c("div", { staticClass: "pt-10" }, [
+      _vm._m(9),
+      _vm._v(" "),
+      _c("div", { staticClass: "pt-5" }, [
+        _c("div", { staticClass: "row justify-content-center" }, [
+          _c("div", { staticClass: "col-12 col-lg-10" }, [
+            _c(
+              "div",
+              { staticClass: "px-5 pt-5 pb-4", attrs: { id: "calendar" } },
+              [
+                _c("div", { staticClass: "calendarHeader text-left px-4" }, [
+                  _c("div", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            version: "1.1",
+                            xmlns: "http://www.w3.org/2000/svg",
+                            viewBox: "0 0 492 492",
+                            "xml:space": "preserve"
+                          }
+                        },
+                        [
+                          _c("g", [
+                            _c("g", [
+                              _c("path", {
+                                attrs: {
+                                  d:
+                                    "M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12\n                                                        C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084\n                                                        c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864\n                                                        l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z"
+                                }
+                              })
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g")
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _vm._m(10),
+                    _vm._v(" "),
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            version: "1.1",
+                            xmlns: "http://www.w3.org/2000/svg",
+                            viewBox: "0 0 492.004 492.004",
+                            "xml:space": "preserve"
+                          }
+                        },
+                        [
+                          _c("g", [
+                            _c("g", [
+                              _c("path", {
+                                attrs: {
+                                  d:
+                                    "M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12\n                                                        c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028\n                                                        c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265\n                                                        c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
+                                }
+                              })
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g"),
+                          _vm._v(" "),
+                          _c("g")
+                        ]
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _vm._m(11),
+                _vm._v(" "),
+                _vm._m(12)
+              ]
+            )
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-md-4" }, [
+      _c("div", { staticClass: "text-center" }, [
+        _c("div", { staticClass: "t-picture" }, [
+          _c("img", {
+            attrs: {
+              src:
+                "https://www.facebook.com/TheAdleyShow/photos/a.225896177457656/1471331069580821"
+            }
+          })
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [_c("h2", [_vm._v("Teachers's Name")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "pl-2" }, [
+      _c("h6", { staticClass: "d-inline text-muted" }, [
+        _vm._v("Country's Name")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-4" }, [
+      _c("div", { staticClass: "text-md-right" }, [
+        _c(
+          "button",
+          { staticClass: "btn btn-xl btn-primary text-uppercase py-2 px-5" },
+          [_vm._v("call")]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c("div", { staticClass: "text-capitalize" }, [
+        _c("h5", { staticClass: "m-0 font-weight-bold text-secondary" }, [
+          _vm._v("languages")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "pt-3" }, [
+        _c("div", { staticClass: "h39" }, [
+          _c("div", { staticClass: "row m-0" }, [
+            _c("div", { staticClass: "p-2" }, [
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c("div", { staticClass: "text-capitalize" }, [
+        _c("h5", { staticClass: "m-0 font-weight-bold text-secondary" }, [
+          _vm._v("specialities")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "pt-3" }, [
+        _c("div", { staticClass: "h120" }, [
+          _c("div", { staticClass: "row m-0" }, [
+            _c("div", { staticClass: "p-2" }, [
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "p-2" }, [
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "p-2" }, [
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "p-2" }, [
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "p-2" }, [
+              _c("span", { staticClass: "bar bg-secondary text-capitalize" }, [
+                _vm._v("english")
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c("div", { staticClass: "text-capitalize" }, [
+        _c("h5", { staticClass: "m-0 font-weight-bold text-secondary" }, [
+          _vm._v("Teaching style")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "pt-3" }, [
+        _c("div", { staticClass: "h23" }, [
+          _c("div", { staticClass: "text-capitalize" }, [
+            _vm._v(
+              "\n                    illing Vibes presents a compilation of the best\n                "
+            )
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-5" }, [
+      _c("div", { staticClass: "text-capitalize" }, [
+        _c("h5", { staticClass: "m-0 font-weight-bold text-secondary" }, [
+          _vm._v("professional background")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "pt-3" }, [
+        _c("div", { staticClass: "h23" }, [
+          _c("div", { staticClass: "text-capitalize" }, [
+            _vm._v(
+              "\n                    illing Vibes presents a compilation of the best Chillout Vibes - Relaxing Music.\n                    Enjoy the best Piano Music to Relax, chillout, background music, anime music, meditation music, study music, music for work and music for sleep.\n                    The best instrumental music composed of carefully selected relaxing\n                "
+            )
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-10" }, [
+      _c("div", { staticClass: "row justify-content-center" }, [
+        _c("div", { staticClass: "col-md-8" }, [
+          _c("div", { attrs: { id: "teachersVid" } }, [
+            _c("div", { staticClass: "w-100" }, [
+              _c("img", {
+                staticClass: "w-100",
+                attrs: {
+                  src:
+                    "https://lh3.googleusercontent.com/ogw/ADea4I5YBNxJP33I8Aj8sg4HeHdLdTibyXAEQDCodIp_=s83-c-mo"
+                }
+              })
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "px-2" }, [
+      _c("h1", { staticClass: "text-dark" }, [_vm._v("Schedule a session")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "mx-auto mx-sm-4" }, [
+      _c("h5", { staticClass: "m-0" }, [_vm._v("september 2021")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "pt-3" }, [
+      _c("table", { staticClass: "table table-responsive d-md-table" }, [
+        _c("tr", { attrs: { id: "tableHead" } }, [
+          _c("th", [_c("div", [_vm._v("sun")])]),
+          _c("th", [_c("div", [_vm._v("mon")])]),
+          _c("th", [_c("div", [_vm._v("tue")])]),
+          _c("th", [_c("div", [_vm._v("wed")])]),
+          _c("th", [_c("div", [_vm._v("thu")])]),
+          _c("th", [_c("div", [_vm._v("fri")])]),
+          _c("th", [_c("div", [_vm._v("sat")])])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("th", [_c("div", [_vm._v("1")])]),
+          _c("th", [_c("div", [_vm._v("2")])]),
+          _c("th", [_c("div", [_vm._v("3")])]),
+          _c("th", [_c("div", [_vm._v("4")])]),
+          _c("th", [_c("div", [_vm._v("5")])]),
+          _c("th", [_c("div", [_vm._v("6")])]),
+          _c("th", [_c("div", [_vm._v("7")])])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("th", [_c("div", [_vm._v("8")])]),
+          _c("th", [_c("div", [_vm._v("9")])]),
+          _c("th", [_c("div", [_vm._v("10")])]),
+          _c("th", [_c("div", [_vm._v("11")])]),
+          _c("th", [_c("div", [_vm._v("12")])]),
+          _c("th", [_c("div", [_vm._v("13")])]),
+          _c("th", [_c("div", [_vm._v("14")])])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("th", [_c("div", [_vm._v("15")])]),
+          _c("th", [_c("div", [_vm._v("16")])]),
+          _c("th", [_c("div", [_vm._v("17")])]),
+          _c("th", [_c("div", [_vm._v("18")])]),
+          _c("th", [_c("div", [_vm._v("19")])]),
+          _c("th", [_c("div", [_vm._v("20")])]),
+          _c("th", [_c("div", [_vm._v("21")])])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("th", [_c("div", [_vm._v("22")])]),
+          _c("th", [_c("div", [_vm._v("23")])]),
+          _c("th", [_c("div", [_vm._v("24")])]),
+          _c("th", [_c("div", [_vm._v("25")])]),
+          _c("th", [_c("div", [_vm._v("26")])]),
+          _c("th", [_c("div", [_vm._v("27")])]),
+          _c("th", [_c("div", [_vm._v("28")])])
+        ]),
+        _vm._v(" "),
+        _c("tr", [
+          _c("th", [_c("div", [_vm._v("29")])]),
+          _c("th", [_c("div", [_vm._v("30")])]),
+          _c("th", [_c("div", [_vm._v("31")])])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "a",
+        {
+          staticClass: "font-weight-bold text-capitalize",
+          attrs: { href: "#" }
+        },
+        [_vm._v("show all times")]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
 
 
 /***/ }),
@@ -47286,6 +48040,27 @@ function normalizeComponent (
   }
 }
 
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StudentTeacherProfile.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/StudentTeacherProfile.vue?vue&type=style&index=0&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("cb41a48e", content, false, {});
+// Hot Module Replacement
+if(false) {}
 
 /***/ }),
 

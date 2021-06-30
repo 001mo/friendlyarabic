@@ -25,3 +25,5 @@ Route::prefix('/teachers')->group(function(){
     Route::get('/student', function() { return view('t-lists/StudentTeachersList'); });
     Route::get('/public', function() { return view('t-lists/PublicTeachersList'); });
 });
+
+Route::get('/teachersusername', function(){ return view('StudentTeachersProfile'); });
