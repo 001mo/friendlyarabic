@@ -26,6 +26,8 @@ Vue.component('public-teachers-list', require('./components/teachers/PublicTeach
 Vue.component('student-teachers-list', require('./components/teachers/StudentTeachersList.vue').default);
 Vue.component('teacher-teachers-list', require('./components/teachers/TeacherTeachersList.vue').default);
 
+Vue.component('student-teachers-profile', require('./components/StudentTeacherProfile.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
