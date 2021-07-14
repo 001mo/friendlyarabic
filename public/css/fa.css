@@ -56,13 +56,26 @@ body {
     max-width: 1200px !important;
 }
 
-.btn.static:hover,
-.btn.static:focus,
-.btn.static:enabled,
-.btn.static:disabled,
-.btn.static:active {
-    outline: none;
-    box-shadow: none;
+.btn.no-box-shadow:hover,
+.btn.no-box-shadow:focus,
+.btn.no-box-shadow:enabled,
+.btn.no-box-shadow:disabled,
+.btn.no-box-shadow:active {
+    box-shadow: none !important;
+}
+
+.btn.outline:hover,
+.btn.outline:focus,
+.btn.outline:enabled,
+.btn.outline:disabled,
+.btn.outline:active {
+    outline: none !important;
+}
+
+@media(min-width: 768px){
+    .pl-md-6, .px-md-6{
+        padding-left: 5rem !important;
+    }
 }
 
 .pt-10 {
