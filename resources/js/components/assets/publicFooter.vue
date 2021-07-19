@@ -1,99 +1,226 @@
 <template>
-    <div id="publicFooter" class="container-fluid py-5">
+    <div class="container-fluid publicFooter pt-5 pb-4">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-3">
-                    <!-- <div>
-                        <img src="https://secureservercdn.net/104.238.69.231/pns.ac4.myftpupload.com/wp-content/uploads/2020/05/%D9%86%D9%87%D8%A7%D8%A6%D9%8A-12.png" style="width: 100%">
-                    </div> -->
+                <div class="col-md-4">
+                    <div>
+                        <img class="w-50" src="images/fa-logo.png">
+                    </div>
                     <div class="pt-4">
                         <div v-html="`
-                            How fast is your download speed? In seconds, FAST.com's simple Internet speed test will estimate your ISP speed.
+                            Friendly Arabic gives you instant access to arabic native speakers via live video chat. Learn with confidence at your own place and in your time!
                         `">
                         </div>
                     </div>
                     <div class="pt-5">
-                        <div v-html="`signup to our newsletter`"></div>
-                        <div class="pt-2">
-                            <div>
-                                <input type="text" placeholder="subscribe">
+                        <div v-html="`Sign Up to our newsletter`"></div>
+                        <div id="subscribe" class="pt-3">
+                            <div id="subscribe" class="d-flex flex-row flex-nowrap no-gutters">
+                                <input type="text" class="no-outline col-7" autocomplete="email" placeholder="E-Mail Address">
+                                <button class="btn no-box-shadow no-outline col-5" v-html="'SUBSCRIBE'"></button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="text-capitalize">
-                        <h4 class="text-uppercase" v-html="'company'"></h4>
+                <div class="col-md-4 company">
+                    <div>
+                        <h6 v-html="'COMPANY'"></h6>
+                    </div>
+                    <div class="pt-2">
                         <ul class="list-unstyled">
-                            <li v-html="'about us'"></li>
-                            <li v-html="'join our family'"></li>
-                            <li v-html="'teachers'"></li>
-                            <li v-html="'blog'"></li>
-                            <li class="text-uppercase" v-html="'memberships'"></li>
-                            <li v-html="'contact us'"></li>
-                            <li v-html="'school and corprate deals'"></li>
-                            <li class="text-uppercase" v-html="'faq'"></li>
+                            <li><a href="" v-html="'About us'"></a></li>
+                            <li><a href="" v-html="'Join our family'"></a></li>
+                            <li><a href="" v-html="'Teachers'"></a></li>
+                            <li><a href="" v-html="'Blog'"></a></li>
+                            <li><a href="" v-html="'MEMBERSHIPS'"></a></li>
+                            <li><a href="" v-html="'Contact us'"></a></li>
+                            <li><a href="" v-html="'School and corprate deals'"></a></li>
+                            <li><a href="" v-html="'FAQ'"></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="row">
-                        <div class="p-2" v-for="i in 8">
-                            <span class="border rounded-circle border-white p-4">
-                                <left-arrow :size="20" fill="#fff"></left-arrow>
-                            </span>
+                <div class="col-md-2 socialMedia">
+                    <div>
+                        <h6 v-html="'SOCIAL MEDIA'"></h6>
+                    </div>
+                    <div class="pt-2">
+                        <div class="mr-2 mb-2 d-inline-block icon">
+                            <a href="">
+                                <div class="border rounded-circle border-black p-2">
+                                    <facebook-logo></facebook-logo>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mr-2 mb-2 d-inline-block icon">
+                            <a href="">
+                                <div class="border rounded-circle border-black p-2">
+                                    <twitter-logo></twitter-logo>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mr-2 mb-2 d-inline-block icon">
+                            <a href="">
+                                <div class="border rounded-circle border-black p-2">
+                                    <linkedin-logo></linkedin-logo>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mr-2 mb-2 d-inline-block icon">
+                            <a href="">
+                                <div class="border rounded-circle border-black p-2">
+                                    <instagram-logo></instagram-logo>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mr-2 mb-2 d-inline-block icon">
+                            <a href="">
+                                <div class="border rounded-circle border-black p-2">
+                                    <youtube-logo></youtube-logo>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mr-2 mb-2 d-inline-block icon">
+                            <a href="">
+                                <div class="border rounded-circle border-black p-2">
+                                    <pinterest-logo></pinterest-logo>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mr-2 mb-2 d-inline-block icon">
+                            <a href="">
+                                <div class="border rounded-circle border-black p-2">
+                                    <quora-logo></quora-logo>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mr-2 mb-2 d-inline-block icon">
+                            <a href="">
+                                <div class="border rounded-circle border-black p-2">
+                                    <m-logo></m-logo>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <h6 v-html="'Stay Connected'"></h6>
-                    <a class="btn">
-                        <span>
-                            <apple-logo :size="22"></apple-logo>
-                        </span>
-                        <span>
-                            <div v-html="'Download on the'"></div>
-                            <div v-html="'App Store'"></div>
-                        </span>
-                    </a>
-                    <button class="btn">
-                        <span>
-                            <playstore-logo :size="22"></playstore-logo>
-                        </span>
-                        <span>
-                            <div v-html="'Get It On'"></div>
-                            <div v-html="'Google Play'"></div>
-                        </span>
-                    </button>
+                <div class="col-md-2 stayConnected">
+                    <div>
+                        <h6 v-html="'STAY CONNECTED'"></h6>
+                    </div>
+                    <div class="pt-2">
+                        <div class="mb-3">
+                            <a href="https://apps.apple.com/az/app/friendly-arabic/id1568071668">
+                                <img class="w-100" src="images/app-store-badge.png">
+                            </a>
+                        </div>
+                        <div class="mb-3">
+                            <a href="https://play.google.com/store/apps/details?id=com.friendly.arabic.prod">
+                                <img class="w-100" src="images/play-store-badge.png">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-md-end">
 
+
+            <div class="row justify-content-md-end pt-5">
+                <div class="mr-4">
+                    <a href="" v-html="'Terms and Conditions'"></a>
+                </div>
+                <div>
+                    <a href="" v-html="'Privacy policy'"></a>
+                </div>
             </div>
         </div>
     </div>
 </template>
 <script>
-import AppleLogo from './icons/appleLogo.vue'
-import leftArrow from "./icons/leftArrow.vue"
-import PlaystoreLogo from './icons/playstoreLogo.vue'
+import FacebookLogo from './icons/logos/facebookLogo.vue';
+import LinkedinLogo from './icons/logos/linkedinLogo.vue';
+import TwitterLogo from './icons/logos/twitterLogo.vue';
+import InstagramLogo from './icons/logos/instagramLogo.vue';
+import YoutubeLogo from './icons/logos/youtubeLogo.vue';
+import PinterestLogo from './icons/logos/pinterestLogo.vue';
+import QuoraLogo from './icons/logos/quoraLogo.vue';
+import MLogo from './icons/logos/mLogo.vue';
 
 export default {
     components: {
-        leftArrow,
-        AppleLogo,
-        PlaystoreLogo
+        FacebookLogo,
+        LinkedinLogo,
+        TwitterLogo,
+        InstagramLogo,
+        YoutubeLogo,
+        PinterestLogo,
+        QuoraLogo,
+        MLogo,
     },
 
 }
 </script>
 <style>
-    #publicFooter {
+    .publicFooter {
         background-color: #383535;
         color: #fff;
+        font-size: 13px;
     }
-    #publicFooter li {
-        display: inline !important;
+    .publicFooter h6 {
+        font-size: .8rem;
+    }
+    .publicFooter a {
+        color: #fff;
+        transition: color 150ms;
+    }
+    .publicFooter a:hover {
+        color: var(--gray);
+        text-decoration: none;
     }
 
+
+    .company li {
+        display: inline-block;
+        margin: 0 1rem .5rem 0;
+    }
+
+    .socialMedia svg {
+        width: 15px;
+        height: 15px;
+        fill: #fff;
+    }
+
+    .socialMedia .border {
+        transition: border-color 150ms;
+    }
+    .socialMedia a:hover .border {
+        border-color: #fff !important;
+    }
+
+    #subscribe input {
+        color: #fff;
+        background-color: transparent;
+        font-size: unset;
+        padding-left: .75rem;
+        padding-right: .75rem;
+        border-width: 1px;
+        border-color: #000 transparent #000 #000;
+        border-radius: .5rem 0 0 .5rem;
+    }
+    #subscribe input::placeholder {
+        font-size: inherit;
+        color: #fff;
+    }
+
+    #subscribe button {
+        color: #fff;
+        font-size: unset;
+        padding: .75rem;
+        background-color: #000;
+        border: 1px solid inherit;
+        border-radius: 0 .5rem .5rem 0;
+    }
+    #subscribe button:hover {
+        color: var(--gray);
+    }
+    #subscribe button:focus {
+        color: var(--gray);
+    }
 </style>
