@@ -56,19 +56,19 @@ body {
     max-width: 1200px !important;
 }
 
-.btn.no-box-shadow:hover,
-.btn.no-box-shadow:focus,
-.btn.no-box-shadow:enabled,
-.btn.no-box-shadow:disabled,
-.btn.no-box-shadow:active {
+.no-box-shadow:hover,
+.no-box-shadow:focus,
+.no-box-shadow:enabled,
+.no-box-shadow:disabled,
+.no-box-shadow:active {
     box-shadow: none !important;
 }
 
-.btn.outline:hover,
-.btn.outline:focus,
-.btn.outline:enabled,
-.btn.outline:disabled,
-.btn.outline:active {
+.no-outline:hover,
+.no-outline:focus,
+.no-outline:enabled,
+.no-outline:disabled,
+.no-outline:active {
     outline: none !important;
 }
 
@@ -80,4 +80,8 @@ body {
 
 .pt-10 {
     padding-top: 10rem;
+}
+
+.border-black {
+    border-color: #000 !important;
 }
