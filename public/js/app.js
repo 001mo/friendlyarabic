@@ -3435,6 +3435,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -11456,7 +11478,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.publicFooter {\n    background-color: #383535;\n    color: #fff;\n    font-size: 13px;\n}\n.publicFooter h6 {\n    font-size: .8rem;\n}\n.publicFooter a {\n    color: #fff;\n    transition: color 150ms;\n}\n.publicFooter a:hover {\n    color: var(--gray);\n    text-decoration: none;\n}\n.company li {\n    display: inline-block;\n    margin: 0 1rem .5rem 0;\n}\n.socialMedia svg {\n    width: 15px;\n    height: 15px;\n    fill: #fff;\n}\n.socialMedia .border {\n    transition: border-color 150ms;\n}\n.socialMedia a:hover .border {\n    border-color: #fff !important;\n}\n#subscribe input {\n    color: #fff;\n    background-color: transparent;\n    font-size: unset;\n    padding-left: .75rem;\n    padding-right: .75rem;\n    border-width: 1px;\n    border-color: #000 transparent #000 #000;\n    border-radius: .5rem 0 0 .5rem;\n}\n#subscribe input::-moz-placeholder {\n    font-size: inherit;\n    color: #fff;\n}\n#subscribe input:-ms-input-placeholder {\n    font-size: inherit;\n    color: #fff;\n}\n#subscribe input::placeholder {\n    font-size: inherit;\n    color: #fff;\n}\n#subscribe button {\n    color: #fff;\n    font-size: unset;\n    padding: .75rem;\n    background-color: #000;\n    border: 1px solid inherit;\n    border-radius: 0 .5rem .5rem 0;\n}\n#subscribe button:hover {\n    color: var(--gray);\n}\n#subscribe button:focus {\n    color: var(--gray);\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.publicFooter {\n    background-color: #383535;\n    color: #fff;\n    font-size: 13px;\n}\n.publicFooter h6 {\n    font-size: .8rem;\n}\n.publicFooter a {\n    color: #fff;\n    transition: color 150ms;\n}\n.publicFooter a:hover {\n    color: var(--gray);\n    text-decoration: none;\n}\n#subscribe input {\n    color: #fff;\n    background-color: transparent;\n    font-size: unset;\n    padding-left: .75rem;\n    padding-right: .75rem;\n    border-width: 1px;\n    border-color: #000 transparent #000 #000;\n    border-radius: .5rem 0 0 .5rem;\n}\n#subscribe input::-moz-placeholder {\n    font-size: inherit;\n    color: #fff;\n}\n#subscribe input:-ms-input-placeholder {\n    font-size: inherit;\n    color: #fff;\n}\n#subscribe input::placeholder {\n    font-size: inherit;\n    color: #fff;\n}\n#subscribe button {\n    color: #fff;\n    font-size: unset;\n    padding: .75rem;\n    background-color: #000;\n    border: 1px solid inherit;\n    border-radius: 0 .5rem .5rem 0;\n}\n#subscribe button:hover {\n    color: var(--gray);\n}\n#subscribe button:focus {\n    color: var(--gray);\n}\n.company li {\n    display: inline-block;\n    margin: 0 1rem .5rem 0;\n}\n.socialMedia svg {\n    width: 15px;\n    height: 15px;\n    fill: #fff;\n}\n.socialMedia .border {\n    transition: border-color 150ms;\n}\n.socialMedia a:hover .border {\n    border-color: #fff !important;\n}\n@media(max-width: 767px){\n#subscribe input {\n        border-width: 2px;\n}\n.stayConnected img {\n        max-width: 200px;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -48965,221 +48987,243 @@ var render = function() {
   return _c("div", { staticClass: "container-fluid publicFooter pt-5 pb-4" }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-4" }, [
-          _vm._m(0),
-          _vm._v(" "),
-          _c("div", { staticClass: "pt-4" }, [
-            _c("div", {
-              domProps: {
-                innerHTML: _vm._s(
-                  "\n                        Friendly Arabic gives you instant access to arabic native speakers via live video chat. Learn with confidence at your own place and in your time!\n                    "
-                )
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "pt-5" }, [
-            _c("div", {
-              domProps: { innerHTML: _vm._s("Sign Up to our newsletter") }
-            }),
+        _c("div", { staticClass: "col-12 col-md-4" }, [
+          _c("div", { staticClass: "mb-5" }, [
+            _vm._m(0),
             _vm._v(" "),
-            _c("div", { staticClass: "pt-3", attrs: { id: "subscribe" } }, [
-              _c(
-                "div",
-                {
-                  staticClass: "d-flex flex-row flex-nowrap no-gutters",
-                  attrs: { id: "subscribe" }
-                },
-                [
-                  _c("input", {
-                    staticClass: "no-outline col-7",
-                    attrs: {
-                      type: "text",
-                      autocomplete: "email",
-                      placeholder: "E-Mail Address"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("button", {
-                    staticClass: "btn no-box-shadow no-outline col-5",
-                    domProps: { innerHTML: _vm._s("SUBSCRIBE") }
-                  })
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-4 company" }, [
-          _c("div", [_c("h6", { domProps: { innerHTML: _vm._s("COMPANY") } })]),
-          _vm._v(" "),
-          _c("div", { staticClass: "pt-2" }, [
-            _c("ul", { staticClass: "list-unstyled" }, [
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("About us") }
-                })
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("Join our family") }
-                })
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("Teachers") }
-                })
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("Blog") }
-                })
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("MEMBERSHIPS") }
-                })
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("Contact us") }
-                })
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("School and corprate deals") }
-                })
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("FAQ") }
-                })
-              ])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-2 socialMedia" }, [
-          _c("div", [
-            _c("h6", { domProps: { innerHTML: _vm._s("SOCIAL MEDIA") } })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "pt-2" }, [
-            _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
-              _c("a", { attrs: { href: "" } }, [
-                _c(
-                  "div",
-                  { staticClass: "border rounded-circle border-black p-2" },
-                  [_c("facebook-logo")],
-                  1
-                )
-              ])
+            _c("div", { staticClass: "pt-4" }, [
+              _c("div", {
+                domProps: {
+                  innerHTML: _vm._s(
+                    "\n                            Friendly Arabic gives you instant access to arabic native speakers via live video chat. Learn with confidence at your own place and in your time!\n                        "
+                  )
+                }
+              })
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
-              _c("a", { attrs: { href: "" } }, [
+            _c("div", { staticClass: "pt-5" }, [
+              _c("div", {
+                domProps: { innerHTML: _vm._s("Sign Up to our newsletter") }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "pt-3", attrs: { id: "subscribe" } }, [
                 _c(
                   "div",
-                  { staticClass: "border rounded-circle border-black p-2" },
-                  [_c("twitter-logo")],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
-              _c("a", { attrs: { href: "" } }, [
-                _c(
-                  "div",
-                  { staticClass: "border rounded-circle border-black p-2" },
-                  [_c("linkedin-logo")],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
-              _c("a", { attrs: { href: "" } }, [
-                _c(
-                  "div",
-                  { staticClass: "border rounded-circle border-black p-2" },
-                  [_c("instagram-logo")],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
-              _c("a", { attrs: { href: "" } }, [
-                _c(
-                  "div",
-                  { staticClass: "border rounded-circle border-black p-2" },
-                  [_c("youtube-logo")],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
-              _c("a", { attrs: { href: "" } }, [
-                _c(
-                  "div",
-                  { staticClass: "border rounded-circle border-black p-2" },
-                  [_c("pinterest-logo")],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
-              _c("a", { attrs: { href: "" } }, [
-                _c(
-                  "div",
-                  { staticClass: "border rounded-circle border-black p-2" },
-                  [_c("quora-logo")],
-                  1
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
-              _c("a", { attrs: { href: "" } }, [
-                _c(
-                  "div",
-                  { staticClass: "border rounded-circle border-black p-2" },
-                  [_c("m-logo")],
-                  1
+                  {
+                    staticClass: "d-flex flex-row flex-nowrap no-gutters",
+                    attrs: { id: "subscribe" }
+                  },
+                  [
+                    _c("input", {
+                      staticClass: "no-outline col-7",
+                      attrs: {
+                        type: "text",
+                        autocomplete: "email",
+                        placeholder: "E-Mail Address"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("button", {
+                      staticClass: "btn no-box-shadow no-outline col-5",
+                      domProps: { innerHTML: _vm._s("SUBSCRIBE") }
+                    })
+                  ]
                 )
               ])
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-2 stayConnected" }, [
-          _c("div", [
-            _c("h6", { domProps: { innerHTML: _vm._s("STAY CONNECTED") } })
           ]),
           _vm._v(" "),
           _vm._m(1)
-        ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-12 pt-5 pt-md-0 col-md-4 company" }, [
+          _c("div", { staticClass: "mb-5" }, [
+            _c("div", [
+              _c("h6", { domProps: { innerHTML: _vm._s("COMPANY") } })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c("ul", { staticClass: "list-unstyled" }, [
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("About us") }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("Join our family") }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("Teachers") }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("Blog") }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("MEMBERSHIPS") }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("Contact us") }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("School and corprate deals") }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("FAQ") }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._m(2)
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-12 pt-5 pt-md-0 col-md-2 socialMedia" }, [
+          _c("div", { staticClass: "mb-5" }, [
+            _c("div", [
+              _c("h6", { domProps: { innerHTML: _vm._s("SOCIAL MEDIA") } })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-2" }, [
+              _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "border rounded-circle border-black p-2" },
+                    [_c("facebook-logo")],
+                    1
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "border rounded-circle border-black p-2" },
+                    [_c("twitter-logo")],
+                    1
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "border rounded-circle border-black p-2" },
+                    [_c("linkedin-logo")],
+                    1
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "border rounded-circle border-black p-2" },
+                    [_c("instagram-logo")],
+                    1
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "border rounded-circle border-black p-2" },
+                    [_c("youtube-logo")],
+                    1
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "border rounded-circle border-black p-2" },
+                    [_c("pinterest-logo")],
+                    1
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "border rounded-circle border-black p-2" },
+                    [_c("quora-logo")],
+                    1
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mr-2 mb-2 d-inline-block icon" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c(
+                    "div",
+                    { staticClass: "border rounded-circle border-black p-2" },
+                    [_c("m-logo")],
+                    1
+                  )
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._m(3)
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "col-12 pt-5 pt-md-0 col-md-2 stayConnected" },
+          [
+            _c("div", { staticClass: "mb-5" }, [
+              _c("div", [
+                _c("h6", { domProps: { innerHTML: _vm._s("STAY CONNECTED") } })
+              ]),
+              _vm._v(" "),
+              _vm._m(4)
+            ]),
+            _vm._v(" "),
+            _vm._m(5)
+          ]
+        )
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "row justify-content-md-end pt-5" }, [
+      _c("div", { staticClass: "row no-gutters justify-content-md-end pt-5" }, [
         _c("div", { staticClass: "mr-4" }, [
           _c("a", {
             attrs: { href: "" },
@@ -49203,7 +49247,33 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("img", { staticClass: "w-50", attrs: { src: "images/fa-logo.png" } })
+      _c("a", { attrs: { href: "" } }, [
+        _c("img", { staticClass: "w-50", attrs: { src: "images/fa-logo.png" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-md-none" }, [
+      _c("hr", { staticClass: "w-100 bg-white" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-md-none" }, [
+      _c("hr", { staticClass: "w-100 bg-white" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-md-none" }, [
+      _c("hr", { staticClass: "w-100 bg-white" })
     ])
   },
   function() {
@@ -49245,6 +49315,14 @@ var staticRenderFns = [
           ]
         )
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-md-none" }, [
+      _c("hr", { staticClass: "w-100 bg-white" })
     ])
   }
 ]
