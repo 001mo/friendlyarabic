@@ -156,11 +156,11 @@
     </div>
 </template>
 <script>
-import FacebookLogo from './icons/logos/facebookLogo.vue';
-import LinkedinLogo from './icons/logos/linkedinLogo.vue';
-import TwitterLogo from './icons/logos/twitterLogo.vue';
-import InstagramLogo from './icons/logos/instagramLogo.vue';
-import YoutubeLogo from './icons/logos/youtubeLogo.vue';
+import FacebookLogo from './icons/logos/facebookLogoUnfill.vue';
+import LinkedinLogo from './icons/logos/linkedinLogoUnfill.vue';
+import TwitterLogo from './icons/logos/twitterLogoUnfill.vue';
+import InstagramLogo from './icons/logos/instagramLogoUnfill.vue';
+import YoutubeLogo from './icons/logos/youtubeLogoUnfill.vue';
 import PinterestLogo from './icons/logos/pinterestLogo.vue';
 import QuoraLogo from './icons/logos/quoraLogo.vue';
 import MLogo from './icons/logos/mLogo.vue';
