@@ -11,6 +11,7 @@
 
         <!-- Style links -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/fa.css') }}">
 
     </head>
     <body class="antialiased">
