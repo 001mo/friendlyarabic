@@ -1,35 +1,35 @@
 <template>
     <div class="container-fluid publicFooter pt-5 pb-4">
-        <div class="container">
+        <div class="container-lg">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-4">
+                <div class="col-10 col-md-4 info">
                     <div class="mb-5">
-                        <div>
+                        <div class="logo">
                             <a href="">
-                                <img class="w-50" src="images/fa-logo.png">
+                                <img src="images/fa-logo.png">
                             </a>
                         </div>
-                        <div class="pt-4">
+                        <div class="pt-5 pt-md-4">
                             <div v-html="`
                                 Friendly Arabic gives you instant access to arabic native speakers via live video chat. Learn with confidence at your own place and in your time!
                             `">
                             </div>
                         </div>
-                        <div class="pt-5">
+                        <div class="pt-5 subscribe">
                             <div v-html="`Sign Up to our newsletter`"></div>
-                            <div id="subscribe" class="pt-3">
-                                <div id="subscribe" class="d-flex flex-row flex-nowrap no-gutters">
+                            <div class="pt-3">
+                                <div class="d-flex flex-row flex-nowrap no-gutters">
                                     <input type="text" class="no-outline col-7" autocomplete="email" placeholder="E-Mail Address">
                                     <button class="btn no-box-shadow no-outline col-5" v-html="'SUBSCRIBE'"></button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="d-md-none">
-                        <hr class="w-100 bg-white">
-                    </div>
                 </div>
-                <div class="col-12 pt-5 pt-md-0 col-md-4 company">
+                <div class="d-md-none col-12 px-4">
+                    <hr class="w-100 bg-secondary">
+                </div>
+                <div class="col-10 pt-5 pt-md-0 col-md-4 company">
                     <div class="mb-5">
                         <div>
                             <h6 v-html="'COMPANY'"></h6>
@@ -47,11 +47,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="d-md-none">
-                        <hr class="w-100 bg-white">
-                    </div>
                 </div>
-                <div class="col-12 pt-5 pt-md-0 col-md-2 socialMedia">
+                <div class="d-md-none col-12 px-4">
+                    <hr class="w-100 bg-secondary">
+                </div>
+                <div class="col-10 pt-5 pt-md-0 col-md-2 socialMedia">
                     <div class="mb-5">
                         <div>
                             <h6 v-html="'SOCIAL MEDIA'"></h6>
@@ -115,36 +115,36 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-md-none">
-                        <hr class="w-100 bg-white">
-                    </div>
                 </div>
-                <div class="col-12 pt-5 pt-md-0 col-md-2 stayConnected">
+                <div class="d-md-none col-12 px-4">
+                    <hr class="w-100 bg-secondary">
+                </div>
+                <div class="col-10 pt-5 pt-md-0 col-md-2 stayConnected">
                     <div class="mb-5">
                         <div>
                             <h6 v-html="'STAY CONNECTED'"></h6>
                         </div>
                         <div class="pt-2">
-                            <div class="mb-3">
+                            <div class="mb-3 d-inline-block mr-2 mr-md-auto">
                                 <a href="https://apps.apple.com/az/app/friendly-arabic/id1568071668">
-                                    <img class="w-100" src="images/app-store-badge.png">
+                                    <img src="images/app-store-badge.png">
                                 </a>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3 d-inline-block mr-2 mr-md-auto">
                                 <a href="https://play.google.com/store/apps/details?id=com.friendly.arabic.prod">
-                                    <img class="w-100" src="images/play-store-badge.png">
+                                    <img src="images/play-store-badge.png">
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="d-md-none">
-                        <hr class="w-100 bg-white">
-                    </div>
+                </div>
+                <div class="d-md-none col-12 px-4">
+                    <hr class="w-100 bg-secondary">
                 </div>
             </div>
 
 
-            <div class="row no-gutters justify-content-md-end pt-5">
+            <div class="row no-gutters justify-content-end py-2 px-4">
                 <div class="mr-4">
                     <a href="" v-html="'Terms and Conditions'"></a>
                 </div>
@@ -183,21 +183,26 @@ export default {
     .publicFooter {
         background-color: #383535;
         color: #fff;
-        font-size: 13px;
+        font-size: .8rem;
     }
     .publicFooter h6 {
         font-size: .8rem;
     }
     .publicFooter a {
         color: #fff;
+        text-decoration: none;
         transition: color 150ms;
     }
     .publicFooter a:hover {
-        color: var(--gray);
-        text-decoration: none;
+        color: #6c757d;
+        /* color: $gray-600 */
     }
 
-    #subscribe input {
+    .info .logo img{
+        max-width: 100px;
+    }
+
+    .subscribe input {
         color: #fff;
         background-color: transparent;
         font-size: unset;
@@ -207,12 +212,12 @@ export default {
         border-color: #000 transparent #000 #000;
         border-radius: .5rem 0 0 .5rem;
     }
-    #subscribe input::placeholder {
+    .subscribe input::placeholder {
         font-size: inherit;
         color: #fff;
     }
 
-    #subscribe button {
+    .subscribe button {
         color: #fff;
         font-size: unset;
         padding: .75rem;
@@ -220,11 +225,13 @@ export default {
         border: 1px solid inherit;
         border-radius: 0 .5rem .5rem 0;
     }
-    #subscribe button:hover {
-        color: var(--gray);
+    .subscribe button:hover {
+        color: #6c757d;
+        /* color: $gray-600 */
     }
-    #subscribe button:focus {
-        color: var(--gray);
+    .subscribe button:focus {
+        color: #6c757d;
+        /* color: $gray-600 */
     }
 
     .company li {
@@ -233,8 +240,8 @@ export default {
     }
 
     .socialMedia svg {
-        width: 15px;
-        height: 15px;
+        width: .9rem;
+        height: .9rem;
         fill: #fff;
     }
 
@@ -245,6 +252,11 @@ export default {
         border-color: #fff !important;
     }
 
+    .stayConnected img{
+        width: 100%;
+        max-width: 130px;
+    }
+
     @media(max-width: 767px){
         #subscribe input {
             border-width: 2px;
@@ -252,7 +264,8 @@ export default {
 
 
         .stayConnected img {
-            max-width: 150px;
+            width: 100%;
+            max-width: 130px;
         }
     }
 </style>
