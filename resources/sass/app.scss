@@ -6,3 +6,10 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+.rounded-md {
+    border-radius: .5rem !important;
+}
+.rounded-xl {
+    border-radius: 1rem !important;
+}

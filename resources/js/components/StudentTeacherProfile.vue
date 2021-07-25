@@ -6,7 +6,7 @@
                     <div class="col-12 col-md-4">
                         <div class="text-center">
                             <div>
-                                <img class="w-100 h-100 border border-transparent rounded-lg" src="https://lh3.googleusercontent.com/ogw/ADea4I5YBNxJP33I8Aj8sg4HeHdLdTibyXAEQDCodIp_=s83-c-mo">
+                                <img class="w-100 h-100 border border-transparent rouned-xl" src="https://lh3.googleusercontent.com/ogw/ADea4I5YBNxJP33I8Aj8sg4HeHdLdTibyXAEQDCodIp_=s83-c-mo">
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="w-100">
-                        <img class="w-100 border border-transparent rounded-lg" src="https://lh3.googleusercontent.com/ogw/ADea4I5YBNxJP33I8Aj8sg4HeHdLdTibyXAEQDCodIp_=s83-c-mo"/>
+                        <img class="w-100 border border-transparent rouned-xl" src="https://lh3.googleusercontent.com/ogw/ADea4I5YBNxJP33I8Aj8sg4HeHdLdTibyXAEQDCodIp_=s83-c-mo"/>
                     </div>
                 </div>
             </div>

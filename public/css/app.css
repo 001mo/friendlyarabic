@@ -2102,7 +2102,7 @@ select.form-control:focus::-ms-value {
   padding: 0.5rem 1rem;
   font-size: 1.125rem;
   line-height: 1.5;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
 }
 
 select.form-control[size], select.form-control[multiple] {
@@ -2973,7 +2973,7 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.125rem;
   line-height: 1.5;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -3493,7 +3493,7 @@ input[type=button].btn-block {
   padding: 0.5rem 1rem;
   font-size: 1.125rem;
   line-height: 1.5;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
 }
 
 .input-group-sm > .form-control:not(textarea),
@@ -4719,12 +4719,12 @@ input[type=button].btn-block {
   line-height: 1.5;
 }
 .pagination-lg .page-item:first-child .page-link {
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
 }
 .pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
 }
 
 .pagination-sm .page-link {
@@ -4898,7 +4898,7 @@ a.badge-black:focus, a.badge-black.focus {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
 }
 @media (min-width: 576px) {
   .jumbotron {
@@ -5590,7 +5590,7 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   outline: 0;
 }
 
@@ -5616,8 +5616,8 @@ a.close.disabled {
   justify-content: space-between;
   padding: 1rem 1rem;
   border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(1rem - 1px);
-  border-top-right-radius: calc(1rem - 1px);
+  border-top-left-radius: calc(0.75rem - 1px);
+  border-top-right-radius: calc(0.75rem - 1px);
 }
 .modal-header .close {
   padding: 1rem 1rem;
@@ -5642,8 +5642,8 @@ a.close.disabled {
   justify-content: flex-end;
   padding: 0.75rem;
   border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: calc(1rem - 1px);
-  border-bottom-left-radius: calc(1rem - 1px);
+  border-bottom-right-radius: calc(0.75rem - 1px);
+  border-bottom-left-radius: calc(0.75rem - 1px);
 }
 .modal-footer > * {
   margin: 0.25rem;
@@ -5821,14 +5821,14 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
+  border-radius: 0.75rem;
 }
 .popover .arrow {
   position: absolute;
   display: block;
   width: 1rem;
   height: 0.5rem;
-  margin: 0 1rem;
+  margin: 0 0.75rem;
 }
 .popover .arrow::before, .popover .arrow::after {
   position: absolute;
@@ -5862,7 +5862,7 @@ a.close.disabled {
   left: calc(-0.5rem - 1px);
   width: 0.5rem;
   height: 1rem;
-  margin: 1rem 0;
+  margin: 0.75rem 0;
 }
 .bs-popover-right > .arrow::before, .bs-popover-auto[x-placement^=right] > .arrow::before {
   left: 0;
@@ -5909,7 +5909,7 @@ a.close.disabled {
   right: calc(-0.5rem - 1px);
   width: 0.5rem;
   height: 1rem;
-  margin: 1rem 0;
+  margin: 0.75rem 0;
 }
 .bs-popover-left > .arrow::before, .bs-popover-auto[x-placement^=left] > .arrow::before {
   right: 0;
@@ -5928,8 +5928,8 @@ a.close.disabled {
   font-size: 0.9rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-top-left-radius: calc(1rem - 1px);
-  border-top-right-radius: calc(1rem - 1px);
+  border-top-left-radius: calc(0.75rem - 1px);
+  border-top-right-radius: calc(0.75rem - 1px);
 }
 .popover-header:empty {
   display: none;
@@ -6422,7 +6422,7 @@ button.bg-black:focus {
 }
 
 .rounded-lg {
-  border-radius: 1rem !important;
+  border-radius: 0.75rem !important;
 }
 
 .rounded-circle {
@@ -11218,4 +11218,11 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.rounded-md {
+  border-radius: 0.5rem !important;
+}
+
+.rounded-xl {
+  border-radius: 1rem !important;
 }
