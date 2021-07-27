@@ -153,7 +153,7 @@
 
 
 <script>
-import publicFooter from './assets/publicFooter.vue';
+import publicFooter from './assets/publicHeader.vue';
 export default {
     components: { publicFooter },
 }
