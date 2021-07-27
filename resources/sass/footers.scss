@@ -19,7 +19,8 @@
 }
 
 .info .logo img{
-    max-width: 100px;
+    width: 100px;
+    max-width: 100%;
 }
 
 .subscribe input {
@@ -68,7 +69,8 @@
 }
 
 .stayConnected img{
-    max-width: 130px;
+    width: 130px;
+    max-width: 100%;
 }
 
 @media(max-width: 767px){
