@@ -1,0 +1,42 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+nav.navbar {
+    background-color: rgba(255, 255, 255, .85);
+}
+
+.navbar .navbar-toggler .icon-bar {
+    position: relative;
+    width: 22px;
+    height: 2px;
+    background-color: $gray-700;
+    display: block;
+    margin-bottom: 5px;
+    transition: ease-in-out 150ms;
+}
+.navbar .navbar-toggler[aria-expanded=true] .icon-bar:nth-child(1) {
+    transform: rotate(45deg);
+    top: 7px;
+}
+.navbar .navbar-toggler[aria-expanded=true] .icon-bar:nth-child(2) {
+    opacity: 0;
+}
+.navbar .navbar-toggler[aria-expanded=true] .icon-bar:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -7px;
+}
+ul.navbar-nav li {
+    padding: .5rem;
+}
+.nav-link {
+    color: #000 !important;
+}
+.nav-link:hover {
+    color: $primary !important;
+}
+
+.navbar .icon {
+    fill: $gray-600;
+}
+
+
