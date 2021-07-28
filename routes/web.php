@@ -27,3 +27,4 @@ Route::prefix('/teachers')->group(function(){
 });
 
 Route::get('/teachersusername', function(){ return view('StudentTeachersProfile'); });
+Route::get('/memberships', function(){ return view('memberships'); });

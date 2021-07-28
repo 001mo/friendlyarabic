@@ -1,0 +1,25 @@
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+.memberships .card {
+    width: 240px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .78rem;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px 0 $gray-400;
+}
+.memberships button.btn {
+    font-size: .83rem;
+}
+.memberships .card img {
+    width: 150px;
+    max-width: 100%;
+    border: 1px solid transparent;
+    border-radius: 194px 187px 170px 262px;
+}
+.memberships .card h6 {
+    font-size: 1.060rem;
+}

@@ -27,6 +27,7 @@ Vue.component('student-teachers-list', require('./components/teachers/StudentTea
 Vue.component('teacher-teachers-list', require('./components/teachers/TeacherTeachersList.vue').default);
 
 Vue.component('student-teachers-profile', require('./components/StudentTeacherProfile.vue').default);
+Vue.component('memberships', require('./components/memberships.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
