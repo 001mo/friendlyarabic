@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid publicFooter pt-5 pb-4">
+    <div class="container-fluid public_footer pt-5 pb-4" ref="footer">
         <div class="container-lg">
             <div class="row justify-content-center">
                 <div class="col-10 col-md-4 info">
@@ -165,6 +165,8 @@ import PinterestLogo from './icons/logos/pinterestLogo.vue';
 import QuoraLogo from './icons/logos/quoraLogo.vue';
 import MLogo from './icons/logos/mLogo.vue';
 
+import {footer_pusher} from './footer_pusher';
+
 export default {
     components: {
         FacebookLogo,
@@ -176,9 +178,9 @@ export default {
         QuoraLogo,
         MLogo,
     },
-
+    methods: {
+        footer_pusher: function(content_section){ footer_pusher(this.$refs.footer, content_section) }
+    }
 }
 </script>
-<style lang="scss" scoped>
-    @import '../../../sass/footers.scss';
-</style>
+

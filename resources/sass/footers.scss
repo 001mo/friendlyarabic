@@ -1,29 +1,29 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 
-.publicFooter {
+.public_footer {
     background-color: #383535;
     color: #fff;
     font-size: .8rem;
 }
-.publicFooter h6 {
+.public_footer h6 {
     font-size: .8rem;
 }
-.publicFooter a {
+.public_footer a {
     color: #fff;
     text-decoration: none;
     transition: color 150ms;
 }
-.publicFooter a:hover {
+.public_footer a:hover {
     color: $gray-600
 }
 
-.info .logo img{
+.public_footer .info .logo img{
     width: 100px;
     max-width: 100%;
 }
 
-.subscribe input {
+.public_footer .subscribe input {
     color: #fff;
     background-color: transparent;
     font-size: unset;
@@ -33,12 +33,12 @@
     border-color: #000 transparent #000 #000;
     border-radius: .5rem 0 0 .5rem;
 }
-.subscribe input::placeholder {
+.public_footer .subscribe input::placeholder {
     font-size: inherit;
     color: #fff;
 }
 
-.subscribe button {
+.public_footer .subscribe button {
     color: #fff;
     font-size: unset;
     padding: .75rem;
@@ -46,35 +46,67 @@
     border: 1px solid inherit;
     border-radius: 0 .5rem .5rem 0;
 }
-.subscribe button:hover, .subscribe button:focus {
+.public_footer .subscribe button:hover, .subscribe button:focus {
     color: $gray-600
 }
 
-.company li {
+.public_footer .company li {
     display: inline-block;
     margin: 0 1rem .5rem 0;
 }
 
-.socialMedia svg {
+.public_footer .socialMedia svg {
     width: .9rem;
     height: .9rem;
     fill: #fff;
 }
 
-.socialMedia .border {
+.public_footer .socialMedia .border {
     transition: border-color 150ms;
 }
 .socialMedia a:hover .border {
     border-color: #fff !important;
 }
 
-.stayConnected img{
+.public_footer .stayConnected img{
     width: 130px;
     max-width: 100%;
 }
 
 @media(max-width: 767px){
-    #subscribe input {
+    .public_footer #subscribe input {
         border-width: 2px;
     }
+}
+
+
+.user_footer {
+    color: $gray-500;
+}
+
+.user_footer a {
+    color: inherit;
+    text-decoration: none;
+}
+.user_footer a:hover {
+    color: $primary;
+}
+
+.user_footer li {
+    display: inline-block;
+}
+.user_footer li:not(:last-child) {
+    margin-right: .75rem;
+}
+
+
+.user_footer .terms {
+    padding: 0 .75rem;
+    font-weight: 500;
+}
+
+.user_footer .icons svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: $gray-500;
 }

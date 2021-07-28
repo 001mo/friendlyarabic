@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid userFooter py-5 px-4" ref="row">
+    <div class="container-fluid user_footer py-5 px-4" ref="footer">
         <div class="row justify-content-center no-gutters d-md-block">
             <div class="d-md-inline-block w-auto terms">
                 <ul class="m-md-0 list-unstyled">
@@ -32,6 +32,8 @@ import pinterest from './icons/logos/pinterestLogo.vue';
 import quora from './icons/logos/quoraLogo.vue';
 import m from './icons/logos/mLogo.vue';
 
+import {footer_pusher} from './footer_pusher.js';
+
 export default {
     components: {
         Facebook,
@@ -45,55 +47,21 @@ export default {
     },
     methods: {
         pusher: function(){
-            var container = this.$refs.row,
+            var container = this.$refs.footer,
             _0 = container.children[0].children[0],
             _1 = container.children[0].children[1],
             middle_point = (parseInt(getComputedStyle(container).width) /2) - (parseInt(getComputedStyle(_1).width) /2) - (parseInt(getComputedStyle(container).paddingLeft)),
             margin = middle_point - parseInt(getComputedStyle(_0).width);
-            console.log(margin)
 
             _1.style['margin-left'] = margin > 0 ? margin+'px' : 'unset';
 
             window.addEventListener('resize', this.pusher);
-        }
+        },
+
+        footer_pusher: function(content_section){ footer_pusher(this.$refs.footer, content_section); }
     },
     mounted: function(){
-        this.pusher()
+        this.pusher();
     }
 }
 </script>
-
-<style>
-    .userFooter {
-        color: #6c757d;
-        /* color: $gray-500; */
-    }
-
-    .userFooter a {
-        color: inherit;
-        text-decoration: none;
-    }
-    .userFooter a:hover {
-        color: #3490dc;
-        /* color: $primary; */
-    }
-    .userFooter li {
-        display: inline-block;
-    }
-    .userFooter li:not(:last-child) {
-        margin-right: .75rem;
-    }
-
-
-    .userFooter .terms {
-        padding: 0 .75rem;
-        font-weight: 500;
-    }
-
-    .userFooter .icons svg {
-        width: 1.25rem;
-        height: 1.25rem;
-        fill: #adb5bd;
-        /* fill: $gray-500; */
-    }
-</style>
