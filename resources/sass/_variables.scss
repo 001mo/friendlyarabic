@@ -7,6 +7,7 @@ $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
 // Colors
+$primary: #f3d250;
 $blue: #3490dc;
 $indigo: #6574cd;
 $purple: #9561e2;
@@ -19,7 +20,6 @@ $teal: #4dc0b5;
 $cyan: #6cb2eb;
 
 $theme-colors: (
-    "primary": #f3d250,
     "black": #000
 );
 
@@ -28,5 +28,6 @@ $spacers: (
     7: 7.5rem,
     8: 10rem
 );
+
 $border-radius: .5rem;
 $border-radius-lg: .75rem;
