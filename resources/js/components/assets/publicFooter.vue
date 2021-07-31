@@ -178,8 +178,20 @@ export default {
         QuoraLogo,
         MLogo,
     },
+    props: {
+        push: {
+            type: Boolean,
+            default: false
+        }
+    },
     methods: {
-        footer_pusher: function(content_section){ footer_pusher(this.$refs.footer, content_section) }
+        footer_pusher: function(content_wrapper = this.$parent.$refs.content_wrapper){
+            if(!content_wrapper) return false;
+            footer_pusher(this.$refs.footer, content_wrapper)
+        }
+    },
+    mounted(){
+        if(this.push){this.footer_pusher();}
     }
 }
 </script>

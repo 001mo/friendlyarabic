@@ -3490,9 +3490,23 @@ __webpack_require__.r(__webpack_exports__);
     QuoraLogo: _icons_logos_quoraLogo_vue__WEBPACK_IMPORTED_MODULE_6__.default,
     MLogo: _icons_logos_mLogo_vue__WEBPACK_IMPORTED_MODULE_7__.default
   },
+  props: {
+    push: {
+      type: Boolean,
+      "default": false
+    }
+  },
   methods: {
-    footer_pusher: function footer_pusher(content_section) {
-      (0,_footer_pusher__WEBPACK_IMPORTED_MODULE_8__.footer_pusher)(this.$refs.footer, content_section);
+    footer_pusher: function footer_pusher() {
+      var content_wrapper = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.$parent.$refs.content_wrapper;
+      if (!content_wrapper) return false;
+
+      (0,_footer_pusher__WEBPACK_IMPORTED_MODULE_8__.footer_pusher)(this.$refs.footer, content_wrapper);
+    }
+  },
+  mounted: function mounted() {
+    if (this.push) {
+      this.footer_pusher();
     }
   }
 });
@@ -7078,23 +7092,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "footer_pusher": () => (/* binding */ footer_pusher)
 /* harmony export */ });
-var last_width = window.innerWidth;
+var last_width = window.innerWidth,
+    last_height = window.innerHeight;
 
 function footer_pusher(footer, content_section) {
   var footer_h = getComputedStyle(footer).height,
       content_h = getComputedStyle(content_section).height;
 
   if (window.innerHeight > parseInt(content_h) + parseInt(footer_h)) {
-    content_section.style.setProperty('height', "calc(100vh - ".concat(footer_h, ")"));
+    content_section.style.height = window.innerHeight - parseInt(footer_h) + 'px';
   } else {
-    content_section.style.setProperty('height', "unset");
+    content_section.style.height = 'unset';
   }
 
   window.onresize = function () {
-    var _width = window.innerWidth;
-    if (_width == last_width) return false;
+    var _w = window.innerWidth,
+        _h = window.innerHeight;
+    if (_w == last_width && _h == last_height) return false;
+    last_width = _w;
+    last_height = _h;
     footer_pusher(footer, content_section);
-    last_width = _width;
   };
 }
 
@@ -11662,7 +11679,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".t-description {\n  overflow: hidden;\n}\n@media (min-width: 768px) {\n.t-description {\n    height: 186px;\n}\n}\n.btn-xl {\n  font-size: 15px;\n}\n.badge {\n  color: #fff;\n  background-color: #6c757d;\n  font-size: 0.8rem;\n  font-weight: 500;\n  line-height: 1.5;\n}\n.h60 {\n  max-height: 39px !important;\n  overflow: hidden;\n}\n.h23 {\n  max-height: 23px !important;\n  overflow: hidden;\n}\n.calendar {\n  text-align: center;\n  border: 1px solid transparent;\n  border-radius: 1rem;\n  border-color: #9e9e9e;\n  color: #414141;\n  fill: #9e9e9e;\n}\n\n/* week day name row */\n.calendar tr#tableHead th, .calendar tr#tableHead td {\n  text-transform: uppercase;\n  color: #9e9e9e;\n}\n\n/* day rows */\n#calender .table, .calendar table {\n  color: inherit;\n}\n.calendar th, .calendar td {\n  border: none;\n  text-align: center;\n  padding: 1rem;\n  font-weight: 500;\n  font-size: 1rem;\n  color: inherit;\n}\n\n/* date hover */\n.calendar th div, .calendar td div {\n  padding: 0.5rem;\n  border: solid transparent;\n  border-radius: 50%;\n}\n.calendar tr:not(#tableHead) th div:hover, .calendar tr:not(#tableHead) td div:hover {\n  background-color: #9e9e9e80;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".t-description {\n  overflow: hidden;\n}\n@media (min-width: 768px) {\n.t-description {\n    height: 186px;\n}\n}\n.btn-xl {\n  font-size: 15px;\n}\n.badge {\n  color: #fff;\n  background-color: #6c757d;\n  font-size: 0.8rem;\n  font-weight: 500;\n  line-height: 1.6;\n}\n.h60 {\n  max-height: 39px !important;\n  overflow: hidden;\n}\n.h23 {\n  max-height: 23px !important;\n  overflow: hidden;\n}\n.calendar {\n  text-align: center;\n  border: 1px solid transparent;\n  border-radius: 1rem;\n  border-color: #9e9e9e;\n  color: #414141;\n  fill: #9e9e9e;\n}\n\n/* week day name row */\n.calendar tr#tableHead th, .calendar tr#tableHead td {\n  text-transform: uppercase;\n  color: #9e9e9e;\n}\n\n/* day rows */\n#calender .table, .calendar table {\n  color: inherit;\n}\n.calendar th, .calendar td {\n  border: none;\n  text-align: center;\n  padding: 1rem;\n  font-weight: 500;\n  font-size: 1rem;\n  color: inherit;\n}\n\n/* date hover */\n.calendar th div, .calendar td div {\n  padding: 0.5rem;\n  border: solid transparent;\n  border-radius: 50%;\n}\n.calendar tr:not(#tableHead) th div:hover, .calendar tr:not(#tableHead) td div:hover {\n  background-color: #9e9e9e80;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

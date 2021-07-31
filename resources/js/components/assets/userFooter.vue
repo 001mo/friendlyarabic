@@ -45,7 +45,14 @@ export default {
         quora,
         m
     },
+    props: {
+        push: {
+            type: Boolean,
+            default: false
+        }
+    },
     methods: {
+        /////////////// push icons
         pusher: function(){
             var container = this.$refs.footer,
             _0 = container.children[0].children[0],
@@ -58,10 +65,14 @@ export default {
             window.addEventListener('resize', this.pusher);
         },
 
-        footer_pusher: function(content_section){ footer_pusher(this.$refs.footer, content_section); }
+        footer_pusher: function(content_wrapper = this.$parent.$refs.content_wrapper){
+            if(!content_wrapper) return false;
+            footer_pusher(this.$refs.footer, content_wrapper)
+        }
     },
-    mounted: function(){
-        this.pusher();
+    mounted(){
+        this.pusher()
+        if(this.push){this.footer_pusher();}
     }
 }
 </script>
