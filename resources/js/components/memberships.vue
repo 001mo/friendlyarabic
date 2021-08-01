@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="wrapper " ref="content">
+        <div ref="content_wrapper">
             <fa-header></fa-header>
             <div class="container memberships pt-7 pb-6">
                 <div>
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <fa-footer></fa-footer>
+        <fa-footer push></fa-footer>
     </div>
 </template>
 <script>
@@ -55,8 +55,5 @@ export default {
             dateNow: '1-1-2000'
         }
     },
-    mounted(){
-        this.$children[1].footer_pusher(this.$refs.content);
-    }
 }
 </script>

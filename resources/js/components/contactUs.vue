@@ -76,9 +76,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <fa-footer ref="footer" push></fa-footer>
-        </div>
+        <fa-footer ref="footer" push></fa-footer>
     </div>
 </template>
 

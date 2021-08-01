@@ -4124,8 +4124,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 
@@ -4384,9 +4382,6 @@ __webpack_require__.r(__webpack_exports__);
       price: '$85.00',
       dateNow: '1-1-2000'
     };
-  },
-  mounted: function mounted() {
-    this.$children[1].footer_pusher(this.$refs.content);
   }
 });
 
@@ -51647,100 +51642,152 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "contact_us_page" }, [
-    _c(
-      "div",
-      { ref: "content_wrapper", staticClass: "content_wrapper" },
-      [
-        _c("fa-header"),
-        _vm._v(" "),
-        _c("div", { staticClass: "container py-7" }, [
-          _c("div", { staticClass: "row justify-content-center" }, [
-            _c("div", { staticClass: "col-md-7 d-none d-md-block" }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "h-100 d-flex flex-column justify-content-center contact_info"
-                },
-                [
-                  _c("div", [
-                    _c("h3", {
-                      domProps: { textContent: _vm._s("Contact Informations") }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "gmail" }, [
-                    _c("span", { staticClass: "mr-2" }, [_c("envelope")], 1),
+  return _c(
+    "div",
+    { staticClass: "contact_us_page" },
+    [
+      _c(
+        "div",
+        { ref: "content_wrapper", staticClass: "content_wrapper" },
+        [
+          _c("fa-header"),
+          _vm._v(" "),
+          _c("div", { staticClass: "container py-7" }, [
+            _c("div", { staticClass: "row justify-content-center" }, [
+              _c("div", { staticClass: "col-md-7 d-none d-md-block" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "h-100 d-flex flex-column justify-content-center contact_info"
+                  },
+                  [
+                    _c("div", [
+                      _c("h3", {
+                        domProps: {
+                          textContent: _vm._s("Contact Informations")
+                        }
+                      })
+                    ]),
                     _vm._v(" "),
-                    _c("span", {
-                      domProps: {
-                        textContent: _vm._s("friendlyarabic1@gmail.com")
-                      }
+                    _c("div", { staticClass: "gmail" }, [
+                      _c("span", { staticClass: "mr-2" }, [_c("envelope")], 1),
+                      _vm._v(" "),
+                      _c("span", {
+                        domProps: {
+                          textContent: _vm._s("friendlyarabic1@gmail.com")
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "social_media_icons" }, [
+                      _c("ul", { staticClass: "m-md-0 list-unstyled" }, [
+                        _c("li", [
+                          _c("a", { attrs: { href: "" } }, [_c("facebook")], 1)
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "" } }, [_c("twitter")], 1)
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "" } }, [_c("youtube")], 1)
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "" } }, [_c("instagram")], 1)
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "" } }, [_c("linkedin")], 1)
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "" } }, [_c("pinterest")], 1)
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "" } }, [_c("quora")], 1)
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "" } }, [_c("m")], 1)
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-md-5" }, [
+                _c("div", { staticClass: "form_wrapper" }, [
+                  _c("div", [
+                    _c("h6", {
+                      domProps: { textContent: _vm._s("Contact us") }
                     })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "social_media_icons" }, [
-                    _c("ul", { staticClass: "m-md-0 list-unstyled" }, [
-                      _c("li", [
-                        _c("a", { attrs: { href: "" } }, [_c("facebook")], 1)
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "" } }, [_c("twitter")], 1)
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "" } }, [_c("youtube")], 1)
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "" } }, [_c("instagram")], 1)
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "" } }, [_c("linkedin")], 1)
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "" } }, [_c("pinterest")], 1)
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "" } }, [_c("quora")], 1)
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [_c("a", { attrs: { href: "" } }, [_c("m")], 1)])
-                    ])
-                  ])
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12 col-md-5" }, [
-              _c("div", { staticClass: "form_wrapper" }, [
-                _c("div", [
-                  _c("h6", { domProps: { textContent: _vm._s("Contact us") } })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "pt-3" }, [
-                  _c(
-                    "form",
-                    {
-                      staticClass: "needs-validation",
-                      attrs: { novalidate: "" }
-                    },
-                    [
-                      _c("div", { staticClass: "form-row" }, [
-                        _c("div", { staticClass: "form-group col-6" }, [
+                  _c("div", { staticClass: "pt-3" }, [
+                    _c(
+                      "form",
+                      {
+                        staticClass: "needs-validation",
+                        attrs: { novalidate: "" }
+                      },
+                      [
+                        _c("div", { staticClass: "form-row" }, [
+                          _c("div", { staticClass: "form-group col-6" }, [
+                            _c("div", { staticClass: "input-group" }, [
+                              _c("label", {
+                                domProps: { textContent: _vm._s("Name") }
+                              }),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control",
+                                attrs: { type: "text", autocomplete: "name" },
+                                on: {
+                                  focus: function($event) {
+                                    return _vm.focusing($event)
+                                  },
+                                  blur: function($event) {
+                                    return _vm.bluring($event)
+                                  }
+                                }
+                              })
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "form-group col-6" }, [
+                            _c("div", { staticClass: "input-group" }, [
+                              _c("label", {
+                                domProps: { textContent: _vm._s("Email *") }
+                              }),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control",
+                                attrs: { type: "email", autocomplete: "email" },
+                                on: {
+                                  focus: function($event) {
+                                    return _vm.focusing($event)
+                                  },
+                                  blur: function($event) {
+                                    return _vm.bluring($event)
+                                  }
+                                }
+                              })
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
                           _c("div", { staticClass: "input-group" }, [
                             _c("label", {
-                              domProps: { textContent: _vm._s("Name") }
+                              domProps: { textContent: _vm._s("Subject") }
                             }),
                             _vm._v(" "),
                             _c("input", {
                               staticClass: "form-control",
-                              attrs: { type: "text", autocomplete: "name" },
+                              attrs: { type: "text" },
                               on: {
                                 focus: function($event) {
                                   return _vm.focusing($event)
@@ -51753,15 +51800,17 @@ var render = function() {
                           ])
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "form-group col-6" }, [
+                        _c("div", { staticClass: "form-group" }, [
                           _c("div", { staticClass: "input-group" }, [
                             _c("label", {
-                              domProps: { textContent: _vm._s("Email *") }
+                              domProps: {
+                                textContent: _vm._s("Your Message *")
+                              }
                             }),
                             _vm._v(" "),
-                            _c("input", {
+                            _c("textarea", {
                               staticClass: "form-control",
-                              attrs: { type: "email", autocomplete: "email" },
+                              attrs: { rows: "5" },
                               on: {
                                 focus: function($event) {
                                   return _vm.focusing($event)
@@ -51772,74 +51821,28 @@ var render = function() {
                               }
                             })
                           ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("div", { staticClass: "input-group" }, [
-                          _c("label", {
-                            domProps: { textContent: _vm._s("Subject") }
-                          }),
-                          _vm._v(" "),
-                          _c("input", {
-                            staticClass: "form-control",
-                            attrs: { type: "text" },
-                            on: {
-                              focus: function($event) {
-                                return _vm.focusing($event)
-                              },
-                              blur: function($event) {
-                                return _vm.bluring($event)
-                              }
-                            }
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("div", { staticClass: "input-group" }, [
-                          _c("label", {
-                            domProps: { textContent: _vm._s("Your Message *") }
-                          }),
-                          _vm._v(" "),
-                          _c("textarea", {
-                            staticClass: "form-control",
-                            attrs: { rows: "5" },
-                            on: {
-                              focus: function($event) {
-                                return _vm.focusing($event)
-                              },
-                              blur: function($event) {
-                                return _vm.bluring($event)
-                              }
-                            }
-                          })
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("button", {
-                        staticClass: "btn btn-block btn-primary",
-                        attrs: { type: "submit" },
-                        domProps: { textContent: _vm._s("Submit") }
-                      })
-                    ]
-                  )
+                        ]),
+                        _vm._v(" "),
+                        _c("button", {
+                          staticClass: "btn btn-block btn-primary",
+                          attrs: { type: "submit" },
+                          domProps: { textContent: _vm._s("Submit") }
+                        })
+                      ]
+                    )
+                  ])
                 ])
               ])
             ])
           ])
-        ])
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "footer" },
-      [_c("fa-footer", { ref: "footer", attrs: { push: "" } })],
-      1
-    )
-  ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("fa-footer", { ref: "footer", attrs: { push: "" } })
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -52122,7 +52125,7 @@ var render = function() {
     [
       _c(
         "div",
-        { ref: "content", staticClass: "wrapper " },
+        { ref: "content_wrapper" },
         [
           _c("fa-header"),
           _vm._v(" "),
@@ -52206,7 +52209,7 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c("fa-footer")
+      _c("fa-footer", { attrs: { push: "" } })
     ],
     1
   )
