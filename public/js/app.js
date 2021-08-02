@@ -3992,16 +3992,6 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   methods: {
-    /////////////// push icons
-    pusher: function pusher() {
-      var container = this.$refs.footer,
-          _0 = container.children[0].children[0],
-          _1 = container.children[0].children[1],
-          middle_point = parseInt(getComputedStyle(container).width) / 2 - parseInt(getComputedStyle(_1).width) / 2 - parseInt(getComputedStyle(container).paddingLeft),
-          margin = middle_point - parseInt(getComputedStyle(_0).width);
-      _1.style['margin-left'] = margin > 0 ? margin + 'px' : 'unset';
-      window.addEventListener('resize', this.pusher);
-    },
     footer_pusher: function footer_pusher() {
       var content_wrapper = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.$parent.$refs.content_wrapper;
       if (!content_wrapper) return false;
@@ -4010,8 +4000,6 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   mounted: function mounted() {
-    this.pusher();
-
     if (this.push) {
       this.footer_pusher();
     }
@@ -51136,7 +51124,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { ref: "footer", staticClass: "container-fluid public_footer pt-5 pb-4" },
+    { ref: "footer", staticClass: "container-fluid pt-5 pb-4 public_footer" },
     [
       _c("div", { staticClass: "container-lg" }, [
         _c("div", { staticClass: "row justify-content-center" }, [
@@ -51260,7 +51248,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-10 pt-5 pt-md-0 col-md-2 socialMedia" },
+            { staticClass: "col-10 pt-5 pt-md-0 col-md-2 social_media" },
             [
               _c("div", { staticClass: "mb-5" }, [
                 _c("div", [
@@ -51380,7 +51368,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-10 pt-5 pt-md-0 col-md-2 stayConnected" },
+            { staticClass: "col-10 pt-5 pt-md-0 col-md-2 stay_connected" },
             [
               _c("div", { staticClass: "mb-5" }, [
                 _c("div", [
@@ -51567,53 +51555,72 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { ref: "footer", staticClass: "container-fluid user_footer py-5 px-4" },
+    { ref: "footer", staticClass: "container-fluid py-5 px-4 user_footer" },
     [
       _c(
         "div",
-        { staticClass: "row justify-content-center no-gutters d-md-block" },
+        {
+          staticClass:
+            "row no-gutters justify-content-center justify-content-md-start"
+        },
         [
-          _c("div", { staticClass: "d-md-inline-block w-auto terms" }, [
-            _c("ul", { staticClass: "m-md-0 list-unstyled" }, [
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("Terms and Conditions") }
-                })
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", {
-                  attrs: { href: "" },
-                  domProps: { innerHTML: _vm._s("Privacy Policy") }
-                })
+          _c(
+            "div",
+            { staticClass: "col-12 text-center text-md-left col-md-4 terms" },
+            [
+              _c("ul", { staticClass: "m-md-0 list-unstyled" }, [
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("Terms and Conditions") }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", {
+                    attrs: { href: "" },
+                    domProps: { innerHTML: _vm._s("Privacy Policy") }
+                  })
+                ])
               ])
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "d-md-inline-block w-auto icons" }, [
-            _c("ul", { staticClass: "m-md-0 list-unstyled" }, [
-              _c("li", [_c("a", { attrs: { href: "" } }, [_c("facebook")], 1)]),
-              _vm._v(" "),
-              _c("li", [_c("a", { attrs: { href: "" } }, [_c("twitter")], 1)]),
-              _vm._v(" "),
-              _c("li", [_c("a", { attrs: { href: "" } }, [_c("youtube")], 1)]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "" } }, [_c("instagram")], 1)
-              ]),
-              _vm._v(" "),
-              _c("li", [_c("a", { attrs: { href: "" } }, [_c("linkedin")], 1)]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "" } }, [_c("pinterest")], 1)
-              ]),
-              _vm._v(" "),
-              _c("li", [_c("a", { attrs: { href: "" } }, [_c("quora")], 1)]),
-              _vm._v(" "),
-              _c("li", [_c("a", { attrs: { href: "" } }, [_c("m")], 1)])
-            ])
-          ])
+          _c(
+            "div",
+            { staticClass: "col-12 text-center col-md-4 pt-2 pt-md-0 icons" },
+            [
+              _c("ul", { staticClass: "m-md-0 list-unstyled" }, [
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [_c("facebook")], 1)
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [_c("twitter")], 1)
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [_c("youtube")], 1)
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [_c("instagram")], 1)
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [_c("linkedin")], 1)
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [_c("pinterest")], 1)
+                ]),
+                _vm._v(" "),
+                _c("li", [_c("a", { attrs: { href: "" } }, [_c("quora")], 1)]),
+                _vm._v(" "),
+                _c("li", [_c("a", { attrs: { href: "" } }, [_c("m")], 1)])
+              ])
+            ]
+          )
         ]
       )
     ]

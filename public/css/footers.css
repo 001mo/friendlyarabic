@@ -67,21 +67,21 @@
   margin: 0 1rem 0.5rem 0;
 }
 
-.public_footer .socialMedia svg {
+.public_footer .social_media svg {
   width: 0.9rem;
   height: 0.9rem;
   fill: #fff;
 }
 
-.public_footer .socialMedia .border {
+.public_footer .social_media .border {
   transition: border-color 150ms;
 }
 
-.socialMedia a:hover .border {
+.social_media a:hover .border {
   border-color: #fff !important;
 }
 
-.public_footer .stayConnected img {
+.public_footer .stay_connected img {
   width: 130px;
   max-width: 100%;
 }

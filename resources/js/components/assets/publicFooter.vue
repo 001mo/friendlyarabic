@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid public_footer pt-5 pb-4" ref="footer">
+    <div class="container-fluid pt-5 pb-4 public_footer" ref="footer">
         <div class="container-lg">
             <div class="row justify-content-center">
                 <div class="col-10 col-md-4 info">
@@ -51,7 +51,7 @@
                 <div class="d-md-none col-12 px-4">
                     <hr class="w-100 bg-secondary">
                 </div>
-                <div class="col-10 pt-5 pt-md-0 col-md-2 socialMedia">
+                <div class="col-10 pt-5 pt-md-0 col-md-2 social_media">
                     <div class="mb-5">
                         <div>
                             <h6 v-html="'SOCIAL MEDIA'"></h6>
@@ -119,7 +119,7 @@
                 <div class="d-md-none col-12 px-4">
                     <hr class="w-100 bg-secondary">
                 </div>
-                <div class="col-10 pt-5 pt-md-0 col-md-2 stayConnected">
+                <div class="col-10 pt-5 pt-md-0 col-md-2 stay_connected">
                     <div class="mb-5">
                         <div>
                             <h6 v-html="'STAY CONNECTED'"></h6>

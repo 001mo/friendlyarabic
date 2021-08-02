@@ -1,13 +1,13 @@
 <template>
-    <div class="container-fluid user_footer py-5 px-4" ref="footer">
-        <div class="row justify-content-center no-gutters d-md-block">
-            <div class="d-md-inline-block w-auto terms">
+    <div class="container-fluid py-5 px-4 user_footer" ref="footer">
+        <div class="row no-gutters justify-content-center justify-content-md-start">
+            <div class="col-12 text-center text-md-left col-md-4 terms">
                 <ul class="m-md-0 list-unstyled">
                     <li><a href="" v-html="'Terms and Conditions'"></a></li>
                     <li><a href="" v-html="'Privacy Policy'"></a></li>
                 </ul>
             </div>
-            <div class="d-md-inline-block w-auto icons">
+            <div class="col-12 text-center col-md-4 pt-2 pt-md-0 icons">
                 <ul class="m-md-0 list-unstyled">
                     <li><a href=""><facebook></facebook></a></li>
                     <li><a href=""><twitter></twitter></a></li>
@@ -52,26 +52,12 @@ export default {
         }
     },
     methods: {
-        /////////////// push icons
-        pusher: function(){
-            var container = this.$refs.footer,
-            _0 = container.children[0].children[0],
-            _1 = container.children[0].children[1],
-            middle_point = (parseInt(getComputedStyle(container).width) /2) - (parseInt(getComputedStyle(_1).width) /2) - (parseInt(getComputedStyle(container).paddingLeft)),
-            margin = middle_point - parseInt(getComputedStyle(_0).width);
-
-            _1.style['margin-left'] = margin > 0 ? margin+'px' : 'unset';
-
-            window.addEventListener('resize', this.pusher);
-        },
-
         footer_pusher: function(content_wrapper = this.$parent.$refs.content_wrapper){
             if(!content_wrapper) return false;
             footer_pusher(this.$refs.footer, content_wrapper)
         }
     },
     mounted(){
-        this.pusher()
         if(this.push){this.footer_pusher();}
     }
 }
