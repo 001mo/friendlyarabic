@@ -10,3 +10,38 @@
 .rounded-xl {
     border-radius: 1rem !important;
 }
+
+label {
+    position: absolute;
+    left: $input-padding-x;
+    top: $input-padding-y;
+    font-size: .8rem;
+    color: $gray-600;
+    transition: all 150ms;
+}
+label.focus {
+    font-size: 10px;
+    top: -10px;
+    left: 5px;
+}
+
+.form-control {
+    position: relative;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    border-color: $gray-500;
+    background-color: transparent;
+    z-index: 2;
+}
+.form-control:focus,
+.form-control.focus  {
+    border-color: $primary;
+    border-bottom-width: 2px;
+}
+.form-control:hover,
+.form-control:focus,
+.form-control:active {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
