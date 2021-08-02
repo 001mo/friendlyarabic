@@ -29,43 +29,6 @@
   margin-right: auto;
 }
 
-.contact_us_page .form-control {
-  position: relative;
-  border-width: 0 0 1px 0;
-  border-radius: 0;
-  border-color: #adb5bd;
-  background-color: transparent;
-  z-index: 2;
-}
-
-.contact_us_page .form-control:focus,
-.contact_us_page .form-control.focus {
-  border-color: #f3d250;
-  border-bottom-width: 2px;
-}
-
-.contact_us_page label {
-  position: absolute;
-  left: 0.75rem;
-  top: 0.375rem;
-  font-size: 0.8rem;
-  color: #6c757d;
-  transition: all 150ms;
-}
-
-.contact_us_page label.focus {
-  font-size: 10px;
-  top: -10px;
-  left: 5px;
-}
-
-.contact_us_page .form-control:hover,
-.contact_us_page .form-control:focus,
-.contact_us_page .form-control:active {
-  box-shadow: none;
-  outline: none;
-}
-
 @media (min-width: 768px) {
   .contact_us_page .form_wrapper {
     border: 1px solid transparent;

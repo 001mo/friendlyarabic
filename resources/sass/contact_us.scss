@@ -2,80 +2,35 @@
 @import 'variables';
 @import '~bootstrap/scss/variables';
 
-
-// ========== "contact infomations" half
 .contact_us_page .contact_info > * {
     padding-top: .75rem;
     padding-bottom: .75rem;
 }
 
+/////// icons
 .contact_us_page .contact_info svg {
     width: 1.25rem;
     height: 1.25rem;
     fill: $gray-500;
     transition: all 150ms;
 }
-
 .contact_us_page .contact_info .social_media_icons li {
     display: inline-block;
 }
-
 .contact_us_page .contact_info .social_media_icons li:not(:last-child) {
     margin-right: 0.75rem;
 }
-
 .contact_us_page .contact_info .social_media_icons a:hover svg {
     fill: $primary;
 }
 
-
-// =========================
-// FORM HALF
-// =========================
-
+//////// form
 .contact_us_page .form_wrapper {
     width: 335px;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-
-.contact_us_page .form-control {
-    position: relative;
-    border-width: 0 0 1px 0;
-    border-radius: 0;
-    border-color: $gray-500;
-    background-color: transparent;
-    z-index: 2;
-
-}
-.contact_us_page .form-control:focus,
-.contact_us_page .form-control.focus  {
-    border-color: $primary;
-    border-bottom-width: 2px;
-}
-
-.contact_us_page label {
-    position: absolute;
-    left: $input-padding-x;
-    top: $input-padding-y;
-    font-size: .8rem;
-    color: $gray-600;
-    transition: all 150ms;
-}
-.contact_us_page label.focus {
-    font-size: 10px;
-    top: -10px;
-    left: 5px;
-}
-
-.contact_us_page .form-control:hover,
-.contact_us_page .form-control:focus,
-.contact_us_page .form-control:active {
-    box-shadow: none;
-    outline: none;
-}
-
 
 @media(min-width: 768px){
     .contact_us_page .form_wrapper {
